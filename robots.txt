@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://koziavkamurz-wq.github.io/nullboot/sitemap.xml

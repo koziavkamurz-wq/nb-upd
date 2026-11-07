@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NULLBOOT — прошивка Android, Root, TWRP и разблокировка загрузчика с ПК</title>
+<meta name="description" content="NULLBOOT — бесплатная программа для Windows 10 и 11: прошивка Android-телефона, Root (Magisk, KernelSU, APatch), TWRP, разблокировка загрузчика, драйверы и показ экрана телефона на компьютере.">
+<meta name="keywords" content="NULLBOOT, прошивка телефона с компьютера, прошить android через пк, root, magisk, kernelsu, apatch, twrp, разблокировка загрузчика, fastboot, драйвер adb, демонстрация экрана телефона, xiaomi, samsung, oneplus">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#05070c">
+<link rel="canonical" href="https://koziavkamurz-wq.github.io/nullboot/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NULLBOOT">
+<meta property="og:title" content="NULLBOOT — прошивка, Root и TWRP в одной программе">
+<meta property="og:description" content="Бесплатная программа для Windows: прошивка Android, Root, TWRP, разблокировка загрузчика и экран телефона на ПК.">
+<meta property="og:url" content="https://koziavkamurz-wq.github.io/nullboot/">
+<meta property="og:image" content="https://koziavkamurz-wq.github.io/nullboot/img/phone.jpg">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NULLBOOT","operatingSystem":"Windows 10, Windows 11","applicationCategory":"UtilitiesApplication","softwareVersion":"1.0","fileSize":"52MB","offers":{"@type":"Offer","price":"0","priceCurrency":"RUB"},"description":"Прошивка Android-телефона, Root, TWRP, разблокировка загрузчика и показ экрана телефона на компьютере.","url":"https://koziavkamurz-wq.github.io/nullboot/","downloadUrl":"https://koziavkamurz-wq.github.io/nullboot/NULLBOOT_Setup.exe","screenshot":"https://koziavkamurz-wq.github.io/nullboot/img/phone.jpg","inLanguage":"ru"}
+</script>
+<style>
+:root{--bg:#05070c;--side:#0b0e15;--card:#0d121a;--line:#1c2534;--txt:#f2f5fa;--mut:#8a94a8;--acc:#3b82f6;--acc2:#60a5fa}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:20;background:rgba(5,7,12,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;height:64px;gap:28px}
+.logo{font:600 22px/1 Bahnschrift,"Segoe UI",sans-serif;letter-spacing:.5px}
+.logo b{color:var(--acc);font-weight:600}
+nav .links{display:flex;gap:22px;margin-left:auto;color:var(--mut);font-size:14.5px}
+nav .links a:hover{color:var(--txt)}
+.btn{display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 24px;border-radius:10px;font-weight:600;font-size:15px;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;border:1px solid transparent}
+.btn.p{background:var(--acc);color:#fff;box-shadow:0 8px 30px -8px rgba(59,130,246,.65)}
+.btn.p:hover{transform:translateY(-2px);box-shadow:0 14px 40px -10px rgba(59,130,246,.85)}
+.btn.g{background:var(--card);border-color:var(--line)}
+.btn.g:hover{border-color:#2e3a50;transform:translateY(-2px)}
+.btn.sm{height:38px;padding:0 16px;font-size:14px}
+header{position:relative;padding:90px 0 40px;text-align:center}
+.glow{position:absolute;left:50%;top:-180px;width:900px;height:900px;transform:translateX(-50%);background:radial-gradient(circle,rgba(59,130,246,.28),rgba(59,130,246,.06) 45%,transparent 70%);pointer-events:none;animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.7;transform:translateX(-50%) scale(1.06)}}
+.tag{display:inline-flex;gap:8px;align-items:center;padding:6px 14px;border:1px solid var(--line);border-radius:99px;background:var(--card);color:var(--mut);font-size:13px;margin-bottom:26px}
+.tag i{width:7px;height:7px;border-radius:50%;background:var(--acc);box-shadow:0 0 10px var(--acc);animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.35}}
+h1{font:600 clamp(40px,7vw,78px)/1.05 Bahnschrift,"Segoe UI",sans-serif;letter-spacing:-1px}
+h1 b{color:var(--acc);font-weight:600}
+.lead{max-width:640px;margin:22px auto 34px;color:var(--mut);font-size:clamp(16px,2.2vw,19px)}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.req{margin-top:18px;color:var(--mut);font-size:13.5px}
+.shot{position:relative;margin:60px auto 0;max-width:1060px;border-radius:16px;border:1px solid var(--line);overflow:hidden;box-shadow:0 40px 120px -30px rgba(59,130,246,.45);aspect-ratio:1220/780;background:var(--card)}
+.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .9s ease}
+.shot img.on{opacity:1}
+.dots{display:flex;gap:8px;justify-content:center;margin-top:18px}
+.dots button{width:8px;height:8px;border-radius:99px;border:0;background:#2a3446;cursor:pointer;transition:width .35s,background .35s}
+.dots button.on{width:26px;background:var(--acc)}
+section{padding:90px 0}
+h2{font:600 clamp(28px,4vw,40px)/1.15 Bahnschrift,"Segoe UI",sans-serif;text-align:center}
+.sub{color:var(--mut);text-align:center;max-width:620px;margin:12px auto 50px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;transition:transform .3s,border-color .3s}
+.card:hover{transform:translateY(-4px);border-color:#2a3a55}
+.ic{width:42px;height:42px;border-radius:10px;display:grid;place-items:center;background:rgba(59,130,246,.12);color:var(--acc2);margin-bottom:16px}
+.ic svg{width:22px;height:22px}
+.card h3{font-size:17px;margin-bottom:6px}
+.card p{color:var(--mut);font-size:14.5px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;counter-reset:s}
+.step{position:relative;padding:24px 24px 24px 70px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:22px;top:22px;width:32px;height:32px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font-weight:700;font-size:14px}
+.step b{display:block;margin-bottom:4px}
+.step span{color:var(--mut);font-size:14.5px}
+.dl{text-align:center;background:linear-gradient(180deg,var(--card),var(--bg));border:1px solid var(--line);border-radius:20px;padding:56px 24px;position:relative;overflow:hidden}
+.dl .glow{top:-500px;width:800px;height:800px}
+.dl .meta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:22px 0 30px}
+.dl .meta span{padding:6px 12px;border-radius:8px;background:var(--bg);border:1px solid var(--line);color:var(--mut);font-size:13.5px}
+.note{color:var(--mut);font-size:13.5px;margin-top:20px}
+.contacts{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.contact{display:flex;align-items:center;gap:14px;min-width:260px;padding:18px 22px;background:var(--card);border:1px solid var(--line);border-radius:14px;transition:transform .25s,border-color .25s}
+.contact:hover{transform:translateY(-3px);border-color:#2a3a55}
+.contact svg{width:30px;height:30px;flex:none}
+.contact b{display:block}
+.contact span{color:var(--mut);font-size:14px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mut);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.r{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.r.in{opacity:1;transform:none}
+.brands{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:34px}
+.brands span{padding:8px 16px;border-radius:99px;background:var(--card);border:1px solid var(--line);color:var(--mut);font-size:14px;transition:color .25s,border-color .25s}
+.brands span:hover{color:var(--txt);border-color:var(--acc)}
+.faq{max-width:780px;margin:0 auto;display:grid;gap:10px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0 20px;transition:border-color .25s}
+.faq details[open]{border-color:#2a3a55}
+.faq summary{list-style:none;cursor:pointer;padding:18px 30px 18px 0;font-weight:600;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:4px;top:50%;width:9px;height:9px;border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);transform:translateY(-70%) rotate(45deg);transition:transform .3s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq details p{color:var(--mut);padding:0 0 18px;font-size:15px}
+.burger{display:none;margin-left:auto;width:42px;height:42px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--txt);cursor:pointer}
+.burger span{display:block;width:18px;height:2px;background:currentColor;margin:4px auto;border-radius:2px;transition:transform .3s,opacity .3s}
+nav.open .burger span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+nav.open .burger span:nth-child(2){opacity:0}
+nav.open .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+@media (max-width:720px){
+  nav .links{position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;margin:0;background:rgba(5,7,12,.96);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .35s ease}
+  nav .links a{padding:14px 20px;border-top:1px solid var(--line)}
+  nav.open .links{max-height:320px}
+  .burger{display:block}
+  nav .btn.sm{display:none}
+  header{padding-top:60px}section{padding:64px 0}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.r{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#">NULLB<b>ØØ</b>T</a>
+  <div class="links"><a href="#about">О программе</a><a href="#features">Функции</a><a href="#how">Как начать</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a><a href="#download">Скачать</a></div>
+  <a class="btn p sm" href="#download">Скачать</a>
+  <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+</div></nav>
+
+<header><div class="glow"></div><div class="wrap">
+  <div class="tag r"><i></i>Бета · версия <span class="ver">1.0</span></div>
+  <h1 class="r">Телефон под контролем.<br><b>Одна программа.</b></h1>
+  <p class="lead r">NULLBOOT прошивает, ставит Root и TWRP, разблокирует загрузчик и показывает экран телефона на компьютере. Без командной строки и поиска по форумам.</p>
+  <div class="cta r">
+    <a class="btn p" href="#download"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Скачать для Windows</a>
+    <a class="btn g" href="#features">Что умеет</a>
+  </div>
+  <div class="req r">Windows 10 и 11, 64-бит · бесплатно · права администратора не нужны</div>
+  <div class="shot r" id="shot">
+    <img class="on" src="img/phone.jpg" alt="О телефоне: модель, батарея, прошивка">
+    <img src="img/main.jpg" alt="Мастерская: режимы, TWRP, экран телефона">
+    <img src="img/root.jpg" alt="Root: Magisk, KernelSU, APatch">
+    <img src="img/dl.jpg" alt="Загрузки: инструменты и прошивки">
+    <img src="img/set.jpg" alt="Настройки: тема, цвет, демонстрация экрана">
+    <img src="img/white.jpg" alt="Светлая тема">
+  </div>
+  <div class="dots" id="dots"></div>
+</div></header>
+
+<section id="about"><div class="wrap">
+  <h2 class="r">О программе</h2>
+  <p class="sub r">Подключите телефон по USB, и NULLBOOT сам поймёт, что это за модель, в каком он режиме и что с ним можно сделать. Всё нужное для работы уже внутри программы.</p>
+  <div class="grid">
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></div><h3>Видит телефон сразу</h3><p>Xiaomi, Samsung, OnePlus, realme, Huawei, Honor, Motorola, Sony, Google и другие. Для iPhone — свой режим.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg></div><h3>Всё в одном окне</h3><p>Не нужно ставить десяток утилит: драйверы, инструменты и подсказки подтягиваются сами.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Осторожно с данными</h3><p>Перед опасными шагами программа предупреждает и делает копии разделов, чтобы можно было вернуть как было.</p></div>
+  </div>
+  <div class="brands r"><span>Xiaomi</span><span>Redmi</span><span>POCO</span><span>Samsung</span><span>OnePlus</span><span>OPPO</span><span>realme</span><span>Huawei</span><span>Honor</span><span>Motorola</span><span>Sony</span><span>Google Pixel</span><span>Nothing</span><span>LG</span><span>Vivo</span><span>Asus</span><span>iPhone</span></div>
+</div></section>
+
+<section id="features" style="padding-top:0"><div class="wrap">
+  <h2 class="r">Функции</h2>
+  <p class="sub r">То, ради чего обычно открывают командную строку, теперь делается парой нажатий.</p>
+  <div class="grid">
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div><h3>Прошивка</h3><p>Ставит прошивки и образы разделов. Сам переводит телефон в нужный режим.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21c-4-3-7-6.5-7-10.5A7 7 0 0 1 12 3a7 7 0 0 1 7 7.5c0 4-3 7.5-7 10.5z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Root</h3><p>Magisk, KernelSU и APatch встроены в программу. Выберите — она сделает остальное.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 7.5-2"/></svg></div><h3>Разблокировка загрузчика</h3><p>Пошаговые подсказки для каждой марки: Xiaomi, Samsung, Motorola, Sony и других.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14.5 4.5 19.5 9.5 9 20H4v-5z"/></svg></div><h3>TWRP и режимы</h3><p>Перезагрузка в систему, Fastboot, Fastbootd и Recovery одной кнопкой.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Экран телефона на ПК</h3><p>Показ экрана со звуком, запись видео и снимки. Можно выбрать FPS, битрейт и кодек.</p></div>
+    <div class="card r"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M10 7h4M9 11h6"/></svg></div><h3>Всё о телефоне</h3><p>Модель, прошивка, память, состояние батареи в процентах, износ и число циклов.</p></div>
+  </div>
+</div></section>
+
+<section id="how" style="padding-top:0"><div class="wrap">
+  <h2 class="r">Как начать</h2>
+  <p class="sub r">Три шага — и телефон уже на экране.</p>
+  <div class="steps">
+    <div class="step r"><b>Скачайте установщик</b><span>Установка занимает несколько секунд. Новая версия ставится поверх старой, настройки остаются.</span></div>
+    <div class="step r"><b>Включите отладку по USB</b><span>В настройках телефона, в разделе «Для разработчиков». Программа подскажет, где это.</span></div>
+    <div class="step r"><b>Подключите кабель</b><span>NULLBOOT сам найдёт телефон, поставит драйвер и покажет, что можно сделать.</span></div>
+  </div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+  <h2 class="r">Частые вопросы</h2>
+  <p class="sub r">Если ответа нет — напишите в Telegram.</p>
+  <div class="faq">
+    <details class="r"><summary>Это бесплатно?</summary><p>Да, NULLBOOT полностью бесплатный. Регистрация не нужна.</p></details>
+    <details class="r"><summary>Какая нужна Windows?</summary><p>Windows 10 или 11, 64-бит. Права администратора нужны только для установки драйвера.</p></details>
+    <details class="r"><summary>Программа не видит телефон. Что делать?</summary><p>Включите на телефоне «Отладку по USB» в разделе «Для разработчиков» и подтвердите запрос на экране телефона. Если телефон всё равно не виден, нажмите в программе «Установить драйвер» — она подберёт драйвер под вашу марку. На Huawei и Honor в шторке выберите режим USB «Передача файлов».</p></details>
+    <details class="r"><summary>Что нужно для Root и прошивки?</summary><p>Разблокированный загрузчик. Программа покажет, разблокирован ли он, и подскажет, как это сделать именно для вашей марки.</p></details>
+    <details class="r"><summary>Не сломается ли телефон?</summary><p>Перед опасными шагами NULLBOOT предупреждает и сохраняет копии разделов, чтобы можно было вернуть всё как было. Изменение прошивки может лишить гарантии — решаете вы.</p></details>
+    <details class="r"><summary>Как обновить программу?</summary><p>Когда выходит новая версия, программа сама скажет об этом при запуске. Скачайте новый установщик — он заменит старую версию, настройки сохранятся.</p></details>
+  </div>
+</div></section>
+
+<section id="download" style="padding-top:0"><div class="wrap">
+  <div class="dl r"><div class="glow"></div>
+    <h2 style="position:relative">Скачать NULLBOOT</h2>
+    <div class="meta" style="position:relative"><span>Версия <b class="ver">1.0</b> (бета)</span><span>Windows 10 и 11, 64-бит</span><span>≈ 52 МБ</span><span>Бесплатно</span></div>
+    <div class="cta" style="position:relative">
+      <a class="btn p" id="dlBtn" href="NULLBOOT_Setup.exe" download><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>Скачать установщик</a>
+      <a class="btn g" href="https://t.me/NeooTechh" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21.4 4.2 2.9 11.3c-1.2.5-1.2 1.2 0 1.6l4.7 1.5 1.8 5.6c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.8-1.7-1.4zM9.4 14.6l8.6-7.8-6.9 9.1-.3 3.1z"/></svg>Скачать в Telegram</a>
+    </div>
+    <p class="note" style="position:relative">Если Windows покажет «Система Windows защитила компьютер», нажмите «Подробнее» → «Выполнить в любом случае»: так бывает с новыми программами без платной подписи.</p>
+  </div>
+</div></section>
+
+<section id="contacts" style="padding-top:0"><div class="wrap">
+  <h2 class="r">Контакты</h2>
+  <p class="sub r">Новости, новые версии и ответы на вопросы — в Telegram и TikTok.</p>
+  <div class="contacts">
+    <a class="contact r" href="https://t.me/NeooTechh" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="#29a9eb"><path d="M21.4 4.2 2.9 11.3c-1.2.5-1.2 1.2 0 1.6l4.7 1.5 1.8 5.6c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.8-1.7-1.4zM9.4 14.6l8.6-7.8-6.9 9.1-.3 3.1z"/></svg><div><b>Telegram</b><span>@NeooTechh</span></div></a>
+    <a class="contact r" href="https://www.tiktok.com/@mi.neotech" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="#fff"><path d="M16.6 3c.3 2.3 1.8 3.8 4 4v3.1c-1.5 0-2.8-.4-4-1.2v6.3c0 3.3-2.5 5.8-5.8 5.8S5 18.5 5 15.2c0-3.4 2.8-6 6.3-5.7v3.2c-1.6-.3-3 .8-3 2.5 0 1.4 1.1 2.6 2.5 2.6 1.6 0 2.6-1 2.6-2.9V3z"/></svg><div><b>TikTok</b><span>@mi.neotech</span></div></a>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> NULLBOOT</span><span>Программа распространяется «как есть». Изменение прошивки может лишить гарантии.</span></div></footer>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  var nav=document.querySelector('nav');
+  document.getElementById('burger').onclick=function(){nav.classList.toggle('open');};
+  nav.querySelectorAll('.links a').forEach(function(a){a.onclick=function(){nav.classList.remove('open');};});
+  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12}):null;
+  var rs=document.querySelectorAll('.r');
+  rs.forEach(function(el,i){el.style.transitionDelay=(el.closest('.grid,.steps,.contacts,header')?(Array.prototype.indexOf.call(el.parentNode.children,el)%6)*70:0)+'ms';if(io)io.observe(el);else el.classList.add('in');});
+  var imgs=document.querySelectorAll('#shot img'),dots=document.getElementById('dots'),at=0,timer;
+  imgs.forEach(function(_,i){var b=document.createElement('button');b.setAttribute('aria-label','Снимок '+(i+1));if(!i)b.className='on';b.onclick=function(){go(i);restart();};dots.appendChild(b);});
+  function go(i){imgs[at].classList.remove('on');dots.children[at].classList.remove('on');at=i;imgs[at].classList.add('on');dots.children[at].classList.add('on');}
+  function restart(){clearInterval(timer);timer=setInterval(function(){go((at+1)%imgs.length);},3800);}
+  document.getElementById('shot').onclick=function(){go((at+1)%imgs.length);restart();};
+  restart();
+})();
+</script>
+</body>
+</html>
