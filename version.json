@@ -1,16 +1,17 @@
 {
-  "version": "3.2",
-  "name": "2.6 BETA",
-  "setup": "NULLBOOT_Setup_3.2.exe",
-  "sha256": "67fc289438aa7e4a67ec53c1cf7e94b19068abebb57bb705d962429cf2675734",
-  "sig": "AmLcUoF7CCbGsZDZYsdbWNZqTn2lbVihtDtHPGvhI3UDiW1W9FKIRzNtUdIXcmj5X4WYIHoig02+tIOJp/PxpXC1RG0YmGkP6X+4/NDIWggqQCTpswxL2gi534MclKhFD2+5rv01c+5UTX9Kcq6EegpJCtkfvbj5wJBdVuTbPEHYaCE6AtYubT/741w633pJDYeHYqMVQWo0RBOeA25EVxorM1NN/CCQPASUMtMk8qkLFnHe+F2QD3pW3uhgv0WcVWt7UNGUAMX2vSASRfIcAgcRoCf8RX7trlND1II4MOMVxs4GwzXO+AkFAk7ESPGgdv9j27k9zTXWI1LXfIhnqXDeK1CEwtF3ecssO5l7uLBAiiuQvnmzd9i7AYBUeL2NMKpqyA4CmHsU+EzpiessEAkrYGUcBxgqvbCudm4ImS19NqZ2ZVs0Z+H4oqbcs35W0hOjnKcz9l4VW2MgPWaNmkIfy7oo9018WK2NvDIqb7Gd1ajezXBJhvDuLBGMFNCF",
+  "version": "3.3",
+  "name": "2.7 BETA",
+  "setup": "NULLBOOT_Setup_3.3.exe",
+  "sha256": "624c352d314abcd10cd231dcb0e5b6de0b33474a62a84911bb1b244bebc1fcac",
+  "sig": "J7GJbx71WyZ7+HI44wnzF1a/k7n5rpwQvSkZPpuTTvHuyunuuGpSgWz9LR2y0spbg8Q2xtzXmbxgj5G0fufxqF9euBEd0dGeiR67QAHaS53KZFHzlaxtDTONTafTCn9hWcXcUvyTZd9PX3/NRkFNdTipA/CjpWG2Y9F8neLukFS5ZWBC9yAqAfdGQQDEac0T9tqm/KNJgZxIN5ND7hZ7j+yEfeZJW/b0y9TNOBKZ3uQBm5Y+xaglS4gismIdJRePDmahpRB5w3LO3pmdWG2QAZEgKMTS8DRfdIGHbmeHpiEuv2hkfrfe9/pfEl9tv/JOvhOFcx7QkqjjvBkQcDs4ABFYvW1QS2FnIzcGLty/9qaLiw4NXgP3IaaTOMpV6e7rUhDHhQhBzubM7bMsW5PiVHJqnXixc8psmCdolIiq/f9qy0wN7GctJx3nKR0PT7tnOd/cJOU7/9gxdWebJZulQ6yZ7PE4OHq5iuJQfMHf8P5REZmOUgHr+qqYPswwnjdc",
   "notes": [
+    "iPhone: точная модель, iOS, сборка, процессор и другие характеристики",
+    "Мастерская для iPhone: Sideloadly, AltServer, Recovery, DFU, драйвер Apple",
+    "Джейлбрейк сам подставляет модель и iOS подключённого iPhone",
+    "Несколько телефонов сразу: переключение между ними вверху по имени",
     "Защита от бутлупа: перед прошивкой копия boot, при сбое она возвращается сама",
-    "Бутлуп по кругу и зависание на логотипе распознаются автоматически",
     "Обновление по воздуху надёжнее и всегда открывает программу обратно",
     "Установщик сам закрывает NULLBOOT, даже если он в трее",
-    "Уведомления сверху: режим телефона, подключение, готовые операции",
-    "Окна влезают в экран любого размера, листаются плавно",
-    "«Что нового» в цвете оформления"
+    "Уведомления сверху: режим телефона, подключение, готовые операции"
   ]
 }
