@@ -1,19 +1,16 @@
 {
-  "version": "3.1",
-  "name": "2.5 BETA",
-  "setup": "NULLBOOT_Setup_3.1.exe",
-  "sha256": "63246bac66b18b8c8babcf180fd2c436abed42a4717bad9c1ef3fba0f7757337",
-  "sig": "d2898fzEeD9xe2yAbyY4sCVXzLsFt8av8ij+JdxmNVap/vRh3xT3u4IynarkLieS5HLs0D6m/e55WQHoC7AGDe9AA4dV/e3trssLjlBtD+iwUWTfIVYuT+oZAADnisFYGOFlywDw8wePscIzQyhndGEkxNghH7cw6xK+sDEhsGEHNI19JBSDNNwSmuuCqi20Am1F59w+rmOAhAhFJSq3eZg73goREEtAXqkcKOm5h/BM9smN5HU0keCrBgMV29WzTG9l0Ee8Ejc4wWqHaDXgXSjmXJIwFojn9FlnPgdTLzfukEEVxod+yTJvc2Jc6Ty4gpQlCyDdslo90qpN/E5ElCJZ4oLMvE8stgO9Ge2UuvKpIG8tXsBkU9jDH4j26TJiP0WoB0m8UDAkp4Kpx/J+4QZ81lqjHMOwsDUvahPSl4z2zHzGGn9ROJWSLseIJjWlaV1IYvFHDpcXuXe07XdS+4eJ1t42rDs6pfSSyB2T+9GlqKzn6nD1xy2V+ucoV38g",
+  "version": "3.2",
+  "name": "2.6 BETA",
+  "setup": "NULLBOOT_Setup_3.2.exe",
+  "sha256": "67fc289438aa7e4a67ec53c1cf7e94b19068abebb57bb705d962429cf2675734",
+  "sig": "AmLcUoF7CCbGsZDZYsdbWNZqTn2lbVihtDtHPGvhI3UDiW1W9FKIRzNtUdIXcmj5X4WYIHoig02+tIOJp/PxpXC1RG0YmGkP6X+4/NDIWggqQCTpswxL2gi534MclKhFD2+5rv01c+5UTX9Kcq6EegpJCtkfvbj5wJBdVuTbPEHYaCE6AtYubT/741w633pJDYeHYqMVQWo0RBOeA25EVxorM1NN/CCQPASUMtMk8qkLFnHe+F2QD3pW3uhgv0WcVWt7UNGUAMX2vSASRfIcAgcRoCf8RX7trlND1II4MOMVxs4GwzXO+AkFAk7ESPGgdv9j27k9zTXWI1LXfIhnqXDeK1CEwtF3ecssO5l7uLBAiiuQvnmzd9i7AYBUeL2NMKpqyA4CmHsU+EzpiessEAkrYGUcBxgqvbCudm4ImS19NqZ2ZVs0Z+H4oqbcs35W0hOjnKcz9l4VW2MgPWaNmkIfy7oo9018WK2NvDIqb7Gd1ajezXBJhvDuLBGMFNCF",
   "notes": [
-    "Обновление по воздуху надёжнее: не зависает и всегда открывает программу обратно",
+    "Защита от бутлупа: перед прошивкой копия boot, при сбое она возвращается сама",
+    "Бутлуп по кругу и зависание на логотипе распознаются автоматически",
+    "Обновление по воздуху надёжнее и всегда открывает программу обратно",
     "Установщик сам закрывает NULLBOOT, даже если он в трее",
     "Уведомления сверху: режим телефона, подключение, готовые операции",
     "Окна влезают в экран любого размера, листаются плавно",
-    "Обновление показывается сразу после заставки",
-    "«Что нового» в цвете оформления",
-    "Цвет оформления меняется сразу, без перезапуска",
-    "Крестик прячет NULLBOOT в трей, выход — через меню значка",
-    "Данные телефона читаются в 2 раза быстрее",
-    "Обновления подписаны ключом разработчика"
+    "«Что нового» в цвете оформления"
   ]
 }
