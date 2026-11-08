@@ -1,10 +1,11 @@
 {
-  "version": "2.9",
-  "name": "2.3 BETA",
-  "setup": "NULLBOOT_Setup_2.9.exe",
-  "sha256": "0cf0532d20f6890a05256c3ac0266dadb7c2f68c1e8855bf27a8269afacd103c",
-  "sig": "SbHzXDRzQeOotQQNmhGIjSrsQ1LhE5uNTPC1/RPB5wyJy2Lqv4JLAMOo5/xNs0a4Ehd2XEHxuaZ1NTQgmNGDWjBsTZCXrEl/I46lNLfnzoXx94aTHINwOw8gbprOkCR+Ph+TIsTil0U1RRP7BxexBrJvKctnvgxJ1SWG4iu37sVFeo/ZAkpWXmqY8Jm8mmw1W5ekTs2mwAxUeb60rMqXJVEAFW9WlidhbnpMk2XNa5B3fFyVoiQyTHfi0LOFi9OTk3NKdYmGn/Si5lB3bxl92TThv43L5UbkivHvicBUkri0dbTAv0JTa6Jop61z+xph7EfLz8HKpmHLaLeyThFcQy8A+RWTzA8Y7PVM+9ltsy9+STvJnlOxNS37GBhmsgb+DkSCmAViGJV9kSn3izsKE3nfSelQfTA2HQXJbhzhmYxe2rcSXUc8i1KgQrPTgsaappC6dUOOUNzNuPkm/pv5VyFwP0ubR0M7ldBwz1YobDi2Yx85NlCxjXnyhTt5BXeH",
+  "version": "3.0",
+  "name": "2.4 BETA",
+  "setup": "NULLBOOT_Setup_3.0.exe",
+  "sha256": "23e0d3968b0104486470e6ba93da9895cdc6ecb612e73a78502190a47f2e5739",
+  "sig": "Ld/EmG1eaPFO7a8WFb18JLAo8eM6tqbNrvfHuz7pwMJ128CME+RLsi6JCjiuHBDP/RCtqP835kp3VI+M0owrfMXGApk+4R21SxpKFhpiOjdJuiZy4OIXLf9Ly3+1ncnJ0XU08hYem1GdOOBAtQV0kjJn07u7Jk3jUBQxdhfYzL8VooVS8unRpAafdD5vNO5Jzwww1BkZ2QogVxhzX1ubxVkCBrrQbemymTx3QYhy34xDMluhYj5Y4MiZslncn55iL0Kne5NKa1no49n1Nohc3TwZtgjnv2k6pz729Zdsg92HjuFK7XD/BN5jzzZT0G3UjARRzSCkiO3cYVFPIwuDpo4mX7rdMzcrrVKvtjgnEhX/sIrGY02ULgkSbOJSnCDymudGDvFAVVpdhxR7EKz7XuCTVBzLDAHJRuSeNd5v/bUknzKgGrf7d4T6zlBeN8tKXBfHsnLOBlmlKDXiRjwhT53GwaROBEP66AEHIN+3ypZ3yHVM40+dCBPeM2mB/Rwc",
   "notes": [
+    "Установщик сам закрывает NULLBOOT, даже если он в трее",
     "Уведомления сверху: режим телефона, подключение, готовые операции",
     "Окна влезают в экран любого размера, листаются плавно",
     "Обновление показывается сразу после заставки",
