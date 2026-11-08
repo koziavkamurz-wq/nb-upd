@@ -1,16 +1,15 @@
 {
-  "version": "3.4",
-  "name": "2.8 BETA",
-  "setup": "NULLBOOT_Setup_3.4.exe",
-  "sha256": "45325c82f1cc7e7bcb3f512de5d5bc4318e367a89f36f80cf44be6a7b71379de",
-  "sig": "hOZtct0bdAqiSSJLu+s9Y9bhaoJAgfP46BTpaf91vizlvGq1Lq9gn/vd3K4plobYSuZSW1gYl1S4DDnXttXGk0s43cC8vkWbn0F6ktP4rkk3Z69XGcOueXZWJ/Q9BLsWaaKHqxo60FKlOTWLnOs+sMhoo9CfSMfDYlGGP8QaJbRjTrP22w3uZnoSUE4GUlITnaKdIfFEenDHxgxvbhT0948Kax2lItaafGvHBcIACG+JL22hkfHw/UAD2h18eu+5oHfWT+6HJVy4MdFAgHa9OuLKxW3MBIDYCib3HNcX2sjsATkSl2Tft5SmCA9konT0xlN6TGexFlD3IPFafcscbIRlsmX/NMqlVkmcp26kXVM7L904MoRYWM0NrzQOsJ+uc08LzJ5RBsSm7Ux4u3O9mQ5R0+q4yFnC+it11y7+RrCqgEsVLZwxMSJNqXvJwniEGUmgn8Y7cdXZD4FkL7ysHZeR1Vza9nN26M0W2iyWF5BOHTTaYoN0h9MMHxu+Zy/F",
+  "version": "3.5",
+  "name": "2.9 BETA",
+  "setup": "NULLBOOT_Setup_3.5.exe",
+  "sha256": "b03cc8f33692bc5db2635d37b51cfc6e0b789fe69f756a4a4d4a2109354c4554",
+  "sig": "Q+FeAIyZsp14ayqkSo8THa8UkEmW58IbZcbHw7oCIsS5XZ0KrvXQ/G1wJZT+QT9rqs6/L61AlZXBAwJpZQBLlMTr+qM+h48qhrzGlTA3qpHbgglOo8AHWMk9/Qh3r2uSCwLUreUDV8rxl0/tLD3vNmKMGgZ0mrZfhh21K5cnC9srSXjW+7DEW21MnowJa3ZAcwBQtSPk4h3zM2bcUHK5JPLeJR4D9SG0DgbNp9IVlbuO13zBrMafte2dipGGtQYcgnH0piC7N0Dra0+11jDw+itxf+kkhJuauqmigL6g4kCcVy9LDp9hrRaB08S2Juf0QOHOq9a+AUjGPy1bKznw3sGgOUhEfDLK7dzjlxIVfm8/j9H+2vqwZg77c6ImH1PwGHfgUOjMKMx+Sv4TEK1BC0bhi1eo1Tu0CE4OggEGYqTB8mv1Y16YI8i39dnbHdby7jkrGWpbqCVBMuZFezn+0ck5fLPsmHhNX9iHUTwEtgg0SAulM00XQ3NAIKPgQNdF",
   "notes": [
-    "Файлы: телефон как папка на компьютере, для iPhone и Android",
-    "Копировать, вырезать, вставить, переименовать — правой кнопкой мыши",
-    "Демонстрация экрана iPhone прямо в NULLBOOT",
-    "О телефоне: память и батарея сверху, намного больше характеристик iPhone",
-    "Переключение между iPhone и Android, если подключены оба",
-    "Мастерская iPhone: Sideloadly, AltStore, твики DEB, режимы и выключение",
-    "Точное название прошивки vivo: Funtouch OS и OriginOS"
+    "Переключение между iPhone и Android: приоритет выбранного телефона",
+    "Список телефонов в стиле NULLBOOT, без повторного открытия",
+    "Экран iPhone: вкладка появляется при запуске и скрывается после остановки",
+    "Запись экрана iPhone со значком и сохранением в общую папку видео",
+    "Общие папки снимков и записей для iPhone и Android",
+    "Меню трея: режимы iPhone, без лишних пунктов снимков и демонстрации"
   ]
 }
