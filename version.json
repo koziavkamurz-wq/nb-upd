@@ -1,8 +1,9 @@
 {
-  "version": "2.6",
+  "version": "2.7",
   "name": "2.1 BETA",
-  "setup": "NULLBOOT_Setup_2.6.exe",
-  "sha256": "d2d4eb909169e7198971e443b5a6baa04a3b7c512bfea8ca6dad7b6328dd78f0",
+  "setup": "NULLBOOT_Setup_2.7.exe",
+  "sha256": "b0f2a087c8f3bc8ce74d85da69b95a48dfb40f1c7e06ef458d7505a361862985",
+  "sig": "IimPzRupeQ1XvE151BNcXzKlKHgBqjsAj8OW0UdRh6dEp4We6GadaEYaP5gXyzdurS4mpJwoouVncuQs91PqUauI9Q+7TVlJm9wYZTBBa17myhymLHOhADU848aer2W2wnccDK4wK+U29Ifme5GV7vF3+8+ozd8DHsKueEUTEAYwUVjhoAgAzBbk74SlB5LYqcjmpEx67T6AT/OTHPEzXKeG/2UwucB/V+7fno9kpbI9zzHgGkUy7HR60dTnlmwLUFoacsL8U3VkWoQv3Vd/b/UTB8uWmKREEdYqWr9ZoojQyRzBex3ZFsd+urO4D53FlpmDSKtjp3AnpfUwE8UpCskPmkUKVUQdDbD+n0LIImLTivL928F67zalLPZyRxVvY7jieJztuqLLi9gptuCCZnJxD0EJKGLyZq+HSQcPScraT3kCKCfTi7hH4+HApq6TjvZ7lk5cEjV2n5i3zzRs2y2vt0xv2zgs8XhBYCMJW78T05kuws0XWp/rAX+FvJxa",
   "notes": [
     "Новое окно обновления: что нового, картинки, загрузка заранее",
     "Обновление можно скачать сейчас, а установить потом",
@@ -12,6 +13,7 @@
     "Подсказка, если телефон заблокирован паролем или отпечатком",
     "Внизу слева видно телефон и его режим",
     "Точнее состояние батареи и «Заряд сейчас»",
-    "Убраны ложные уведомления об обновлении"
+    "Убраны ложные уведомления об обновлении",
+    "Обновления подписаны ключом разработчика: подделку программа не поставит"
   ]
 }
