@@ -1,15 +1,18 @@
 {
-  "version": "3.5",
-  "name": "2.9 BETA",
-  "setup": "NULLBOOT_Setup_3.5.exe",
-  "sha256": "b03cc8f33692bc5db2635d37b51cfc6e0b789fe69f756a4a4d4a2109354c4554",
-  "sig": "Q+FeAIyZsp14ayqkSo8THa8UkEmW58IbZcbHw7oCIsS5XZ0KrvXQ/G1wJZT+QT9rqs6/L61AlZXBAwJpZQBLlMTr+qM+h48qhrzGlTA3qpHbgglOo8AHWMk9/Qh3r2uSCwLUreUDV8rxl0/tLD3vNmKMGgZ0mrZfhh21K5cnC9srSXjW+7DEW21MnowJa3ZAcwBQtSPk4h3zM2bcUHK5JPLeJR4D9SG0DgbNp9IVlbuO13zBrMafte2dipGGtQYcgnH0piC7N0Dra0+11jDw+itxf+kkhJuauqmigL6g4kCcVy9LDp9hrRaB08S2Juf0QOHOq9a+AUjGPy1bKznw3sGgOUhEfDLK7dzjlxIVfm8/j9H+2vqwZg77c6ImH1PwGHfgUOjMKMx+Sv4TEK1BC0bhi1eo1Tu0CE4OggEGYqTB8mv1Y16YI8i39dnbHdby7jkrGWpbqCVBMuZFezn+0ck5fLPsmHhNX9iHUTwEtgg0SAulM00XQ3NAIKPgQNdF",
+  "version": "3.6",
+  "name": "3.0 BETA",
+  "setup": "NULLBOOT_Setup_3.6.exe",
+  "sha256": "37cf6da252511bfe120bc390f46410c23de4e127568cd88042d55f81c5a450d8",
+  "sig": "b2bU0kBlGw0atNAnpMj1ROopBuUaGRVw5KMQHmi5zt/lo6BrKCRgNTpwxOGwnp4VwVB70IxGQgrZwQ38AXFGSPfXRcMQS0oy0HCkHmj4D8poTJHWlfqFXDbNQ+k+1M/CzyxhunwWRcfUXpgVto0jA7ZgVEhMVbOKFcO10cgl9++ySFUL+NbI0V1sp04+J1o8yNroYV0yMdqIsIPhTx1rVbOMAox9+fW/5LjNgwxWwWce/WuiE5vkliFFYX9+p58HB//yWDMpp1tO3OBcRQp0UsBohVlhR/JsbAAh/V8Y2A8z6UtsTkAdb9fTYIC1ATYH2EOlAR56yu39lZ+IRkQBVvV7Y/HVBG7W9iY6RKX10uXNZAyPuTpTkOcBapKFnBwjUgzcAuPCzJEu9w3le8EMqWK3cKOMK4vvoLGaRCno9UMh8QXua1w7mBLwMb9tU1AXAno1pioaNE4tNp/+Cn6vOq96XJyKlcnIkh0afY07N4cTLoI6FkJMzciLhyCPplzI",
   "notes": [
-    "Переключение между iPhone и Android: приоритет выбранного телефона",
-    "Список телефонов в стиле NULLBOOT, без повторного открытия",
-    "Экран iPhone: вкладка появляется при запуске и скрывается после остановки",
-    "Запись экрана iPhone со значком и сохранением в общую папку видео",
-    "Общие папки снимков и записей для iPhone и Android",
-    "Меню трея: режимы iPhone, без лишних пунктов снимков и демонстрации"
+    "Наведение в цвет выбранной темы, включая меню трея и список телефонов",
+    "Тёмный список телефонов без режима рядом с названием модели",
+    "Плавное открытие списка, смена телефона и обновление характеристик",
+    "Единые кнопки начала и остановки демонстрации для iPhone и Android",
+    "Отдельная кнопка остановки убрана, запись управляется своей кнопкой",
+    "Защита от повторных действий во время сохранения видео iPhone",
+    "Отдельный мастер удаления: параметры, подтверждение, удаление, готово",
+    "Uninstall.exe открывает удаление двойным щелчком, без дополнительных команд",
+    "Установщик использует выбранный цвет NULLBOOT, данные сохраняются по умолчанию"
   ]
 }
