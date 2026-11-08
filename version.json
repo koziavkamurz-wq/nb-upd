@@ -1,5 +1,5 @@
 {
-  "version": "2.3",
-  "setup": "NULLBOOT_Setup.exe",
-  "sha256": "1330437b38720ac405d777d2cae47e948eae68bf20b6a13bb7049a49ada9164b"
+  "version": "2.4",
+  "setup": "NULLBOOT_Setup_2.4.exe",
+  "sha256": "e4199554720adb930c725182ee5e3d935eb815cffe2c6b3fd260b6f38323de36"
 }
