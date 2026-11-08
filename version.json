@@ -1,19 +1,17 @@
 {
-  "version": "2.7",
-  "name": "2.1 BETA",
-  "setup": "NULLBOOT_Setup_2.7.exe",
-  "sha256": "b0f2a087c8f3bc8ce74d85da69b95a48dfb40f1c7e06ef458d7505a361862985",
-  "sig": "IimPzRupeQ1XvE151BNcXzKlKHgBqjsAj8OW0UdRh6dEp4We6GadaEYaP5gXyzdurS4mpJwoouVncuQs91PqUauI9Q+7TVlJm9wYZTBBa17myhymLHOhADU848aer2W2wnccDK4wK+U29Ifme5GV7vF3+8+ozd8DHsKueEUTEAYwUVjhoAgAzBbk74SlB5LYqcjmpEx67T6AT/OTHPEzXKeG/2UwucB/V+7fno9kpbI9zzHgGkUy7HR60dTnlmwLUFoacsL8U3VkWoQv3Vd/b/UTB8uWmKREEdYqWr9ZoojQyRzBex3ZFsd+urO4D53FlpmDSKtjp3AnpfUwE8UpCskPmkUKVUQdDbD+n0LIImLTivL928F67zalLPZyRxVvY7jieJztuqLLi9gptuCCZnJxD0EJKGLyZq+HSQcPScraT3kCKCfTi7hH4+HApq6TjvZ7lk5cEjV2n5i3zzRs2y2vt0xv2zgs8XhBYCMJW78T05kuws0XWp/rAX+FvJxa",
+  "version": "2.8",
+  "name": "2.2 BETA",
+  "setup": "NULLBOOT_Setup_2.8.exe",
+  "sha256": "e7fca235a92e48a4a432a16f0e6df1275e61ccddccb8ea68bb105ab9a6bda003",
+  "sig": "bzR8wqHzXcc2b7k6WtuvULO142bVGQzO7mtWHkHtx2+ldd7/LSZGUndwlaK+dYdnV7tLNfYlOxJX8pAeWEVK50SPpi0XZwj2vRULc2pcJABoCdPhKIz4g9kWx1XGIrIv4kriigxAw+i9+OeLJ4IT1P+FTNqQo3u2NvZKXdl8n5kAQwsW+a/d5lYcNXAtDr2cMDzX70fAWoQpH2XvcZXdNawLLfWI0VS1gEbo6li6IKzWtfZOEYuGCznzM50jM+xs1ajfknI4otqSjtjjyIPQUi7T8iUb0F+ZwlwVYPKqHDnch8DpTSotXQ84S00kBPi3E1nwbWDgxolwA0NxMqJ//JCAYJbXwPfrrq0OtEXuQH0bktM5miCxg5ZAUlt6GudJW9zZPp1SYgpHxRRB9DpIPs090Msz7IZ/gdSpp+JFvrqB+ZUVEe3H6k1XX7jmmmUWBRCp/8C616l3qqv4paRSTAKMb6yjcfIsHq9bVT5pwkRPsjUZ8oGsE3FfNYOgn6MU",
   "notes": [
-    "Новое окно обновления: что нового, картинки, загрузка заранее",
-    "Обновление можно скачать сейчас, а установить потом",
+    "Уведомления сверху: режим телефона, подключение, готовые операции",
+    "Окно обновления влезает в любой экран и листается",
+    "Обновление показывается сразу после заставки",
+    "«Что нового» в цвете оформления",
+    "Цвет оформления меняется сразу, без перезапуска",
     "Крестик прячет NULLBOOT в трей, выход — через меню значка",
-    "Мини-меню в трее: скриншот, демонстрация, перезагрузка в режимы",
     "Данные телефона читаются в 2 раза быстрее",
-    "Подсказка, если телефон заблокирован паролем или отпечатком",
-    "Внизу слева видно телефон и его режим",
-    "Точнее состояние батареи и «Заряд сейчас»",
-    "Убраны ложные уведомления об обновлении",
-    "Обновления подписаны ключом разработчика: подделку программа не поставит"
+    "Обновления подписаны ключом разработчика"
   ]
 }
