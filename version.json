@@ -1,17 +1,11 @@
 {
-  "version": "4.3",
-  "name": "3.7 BETA",
-  "setup": "NULLBOOT_Setup_4.3.exe",
-  "sha256": "ba332360d614b8a37676e5bc742a931df962af6a97cf8db89eb7d038c52ca4b0",
-  "sig": "PJnOq36Nd67JOnaVaWZZHo5Q1pRH7wjhkK7k8VYjfjiG8ih4MA/a8wXRoRtbqvhpDy0L3Gr5eLvzHRoyg96xKhqWsy4YRps2weQaens3+ZexT9zbQOLZzRK5c11lWq5W6ZzYLGwYP3LQIEJWWpTI9/anME4xIwywb67tt/qDRHminYxsWz83Psl0v+3iRt5nBA4MSFqzGsMkRRyU5PXUHkChGUjVX3YudDkKB3QHYQHa2X2lMLOx9pkN+iy//qTdfnu6oD2IsYMqbIJWnnObJati3s28zHygRM5b5nWaK3xV1URQl8hIxKU7MiK10+FI8JEvRKbU1W5Wi+nAvikrCOtDQ+zNYkdSYMNaKAwGeaXuOo2g8QwdsNYHjTMZbhmbXtaCcF7MZv6uR8tmajjWCPrGkHyGpNXWa9jn3MBSS5KoBhlayaQqIyQt0sjhg9l2eg1eIl8sUli+Y+UNgI+PyorKuVT5aar418cqUJeUxMVsMwyCNFPNv/HMJYg2XVMU",
+  "version": "4.4",
+  "name": "3.8 BETA",
+  "setup": "NULLBOOT_Setup_4.4.exe",
+  "sha256": "5860c115cc525f1d6278453f583913299912c286966e63587362afa920203ad5",
+  "sig": "nh45r/qAjvZ5RBh/yWqaPXIU3CeLR9tzsFlpT+XWQ8LKjgIHvZWavmzsDM59xKN0+Se88IYKmUFRRetUM4I9LAhKhbnurDq0LXypFV47UcMhgEorvi0cNKIYDmQEJHpzbgLXyqsOitRkrwQQBK69efHb40Xn6Lqd3gaTfbBEBQjqLFOdfvkh4HBx+hXygUGE3dElLswAj7X8NMkS/yZd4rYjX0dYVOt6tiaanHFZBkSjUC4Lh6NtO5Vw1ze0xydaRUnrPb5KvFmVCC9Silu8T9//+AMblXypP0ZAGwHr/ITBeYLCfFRQGSy5GPUOzTvZdY2mRj0If52ODxsnuE1FfHJzBr7/IVAxMVNH0uOcFqsseaX4+9ahqYHj/dJr68Ok+b62QIP/GpQfsIwYxYtupuwgDjEPZdep6M7VOZd3FVIVxbKS3GKcI/fdrwpk2avIVEiq/BtS8GMHLlcKFHqsQiRS1DpQEzejXZsomLtpUM/JdCK8RqwCKTSPzzCQMcTw",
   "notes": [
-    "Больше характеристик iPhone: платформа, модель поставки, регион и возможности",
-    "Проверка признаков джейлбрейка через USB с отдельным неизвестным результатом",
-    "Android: платформа, SoC, отпечаток прошивки, сборка и патч vendor",
-    "Доступная ОЗУ, область подкачки, активные ядра CPU и ток аккумулятора",
-    "Сведения о динамических разделах, A/B, шифровании и состоянии SIM",
-    "Память и батарея сохранены сверху; новые данные разделены на группы",
-    "Чтение характеристик не запрашивает root через su",
-    "Размер ответов AFC ограничен для защиты от некорректных USB-пакетов"
+    "Кнопка обновления в боковой панели: название и версия в две строки",
+    "Полная версия видна во всплывающей подсказке"
   ]
 }
