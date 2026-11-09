@@ -1,22 +1,20 @@
 {
-  "version": "4.5",
-  "name": "3.9 BETA",
-  "setup": "NULLBOOT_Setup_4.5.exe",
-  "sha256": "9cc6ce36c936a198880b9354ef33a0d9e787761923f20ed9e243e7e6d7ff6b9d",
-  "sig": "qVNQIKyckSRBcgv8tbWJlZllwSqa9Mzog+HZCcW30U7UzONip25HxbJL9I7IiTtpDv0UFaL5W3wqw67SJT6NKUrgl93eDEIsRcSTa5hAdtQ7RpPPtGC8D2ShwhiH7SNiNFHqYEiLnxexFIUkip6/40Gnh9J3vvRvFFt7+6xjfGUiMJG3ThKf2AfPRVPAXhZ6TmT3HxN/A+dp0VqOzZiBNhkxJcmeU8vH7+cI1ypCAw8H8GWMScW6NEiGv3j3YO8C9PvyTcSxJCTccqG1JT6ewoiNWwJ8GRwkiwjA6dHL6LVIMF+yysvsJ5YBUNkpDYBswqtE54gumCdP8IENOyo82wv7IexLVxtbqG1ySuzEMIR19lWkNHrcsRQY54ombUG+4/pgPousWwsRYWNpzp4/22dD30LIAi3sWnMIIJ0URl8hH8P5qqIDeihW0MtRL2XiTpwDWToL1HXjFQLZsqs+sTT8WhG1Kb2YYBl4xBxxhh9wTAcA+dlCbfGEBeDOvMla",
-  "delta": "NULLBOOT_Delta_5860c115cc52_4.5.nbdelta",
-  "delta_base": "5860c115cc525f1d6278453f583913299912c286966e63587362afa920203ad5",
-  "delta_sha256": "6b25b3c31038a1665a7980404a49562454455f1429736f948f53c7f215aeb3d6",
-  "delta_sig": "Fd3+nvuwkXbX1wBk/6+sebifhp5pPSK9H0k0ULewhVA2cedpuRcjxjkM8+njj+ECV7yyCy9LeOyZzs7KIpqDh9AnvxWFwA1EbOcpm8S1zQpaWBoWZXNpwwRUAM6Um36YyWMc7kvaMUcuAuyHILw7owC16iJfBR4sZh0dkFKSkr1BI1JytGEM+DI80YEpZ8i4e09lcd/HQJc5TmGmdusYvOluvBdLbYvac1ADLid6gNJzBUzlmT+N0CDUfqSzH1rHov93SgUwzP15Sf74oBgh/KbPnLxX5YtgZuu7sT38vCktcswurr2zWwDw0t2xbwew/rNwlLtGNVQHgO9Ox8AkOmJ8HYiL3cT3vI+ImlrNqGV7GzXyHc/MwEJ1tqeKgU1pcOCRkTvzr4bGSOjX+4ldozPtg8afFyudJhJvZLr1tW42z3QCX+C5uK6zBL1QnRmRETt/BJa0y68YxPAc/IFoNlsWv77ufDudNK0UW7rnHDa8zH5JQbScLv7pDQa8yGPm",
+  "version": "4.6",
+  "name": "4.0 BETA",
+  "setup": "NULLBOOT_Setup_4.6.exe",
+  "sha256": "735fb8e2d61e776cd7345d64f607d71fb620f6a4a79bd2eaae83e4326ad21bf5",
+  "sig": "INez0KYbeiWQQcMIWsuc7u3KgsZp/yF9K4YpTCARNZ6bCAx4PCk4KhXd17/ynrogqOe2pZHHsdzzjZVFYyoJFngGDU8gyTm7Wms3NdYKajUvyOecrvuWeauTDTi5NUeiFT8SNGR1ndLEc3VODzbWi42OHdA+POV+ix3a8ktmuC6J8ffUMYqmu8J+uGeQypRiUxqJfQTpPv3V2/WU/S9A591vuj07feCA9g9inSDjgNfWhkR/XrS4oLlVugZftajuXyB2JEatAWklC6U27bYIqWP9A+54lAScUAcyESveq6vuaWiPRkep9iPUar3ModoIx3sELM7945aD7M/RM2NTqyMgLIP/e1v6M3fkXvC1MzTMc0+Ug5p7myB7mvXKyuuqhxNMsPBecIvPKI8aMruZV2eRO3VL1JdyPEQLWFz5rm3Rf2TNSjKDSexbzpTjTgFOOW85sZZbtd24PxV3AEJDmKhdM8WJ4YaUXoZ1LXZVb3te4NcU6cWn28LFnaF2z/hZ",
+  "delta": "NULLBOOT_Delta_9cc6ce36c936_4.6.nbdelta",
+  "delta_base": "9cc6ce36c936a198880b9354ef33a0d9e787761923f20ed9e243e7e6d7ff6b9d",
+  "delta_sha256": "ef95108e7b5a9261edc12337cc5be0aeccf492ed4697fe064ed6b6691800759f",
+  "delta_sig": "Dhmw7DB7BdvKo99kttk2FfBTvMVL0WIr8Q5DdtCQKnN7iXRyq5kn6/4n76iAHMuzZ0cNJcjn8q+ZZWw7T6CHQVAhGayy+6HzDZkcuX2f8gXkp7ePThN9A3VV3S5I3VLYw79H6eaNljGaUENby0wY8FE2M0wBlaBbp9LS3KyFEVPcy5drcGo8BSc6XN9uVvVe3T5CpCJbORuqD9JkTi8i2JKNZQwwuOM66Ndvjurv0jqnhaN5X3V5oQhGXfvqugu36GtQvxYJlmNh16c89uWX89upJwkitbZczNqArGEhzIYrRUjkiSvVpW19RtVm+G9qMn2g8YHQ4gqMWslbi8tkWuBp9gOGEtl9O4qCyW3cpTY6+cJX3cjSrRGwZeH9wjjVjrhGlUUy/xBOTdO6gNTU7zQ7nBwYpfBzi+XE61J7fnY2NtZx1UwfvUtOzWuaayWEp/M9iRMMd2Tpr4oV9gILRi9Y75h/bauJhUykezRSIVGMedxF8RsMv5VgXZuAZh3I",
   "notes": [
-    "Репозитории iPhone: источники, поиск твиков и загрузка DEB",
-    "Добавление собственных источников Sileo и проверка целостности пакетов",
-    "Перед установкой DEB проверяется доступность SSH выбранного iPhone",
-    "Ключ SSH телефона запоминается; пароль вводится только в окне SSH",
-    "Поддержка небольших обновлений: скачивание изменившихся частей установщика",
-    "При повреждённом обновлении автоматически используется полный установщик",
-    "Джейлбрейк: проверка AFC2 и установленных Sileo, Zebra и Cydia",
-    "Недоступные статусы Apple ID больше не подменяются ответом «нет»",
-    "Убрана вычисленная по серийному номеру неделя выпуска iPhone"
+    "Просмотр файлов больше не ограничен кэшем в 256 МБ",
+    "Предыдущая временная копия удаляется при открытии следующего файла",
+    "При закрытии просмотра временное фото, видео или музыка удаляются",
+    "Оригиналы на телефоне сохраняются без изменений",
+    "Большие видео копируются без общего двухминутного ограничения",
+    "При отключении телефона просмотр закрывается и копирование отменяется",
+    "Обновления скачивают изменившиеся части при наличии предыдущего установщика"
   ]
 }
