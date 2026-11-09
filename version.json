@@ -1,15 +1,19 @@
 {
-  "version": "3.7",
-  "name": "3.1 BETA",
-  "setup": "NULLBOOT_Setup_3.7.exe",
-  "sha256": "bc6c56d81dcab3e968a41daff618bac558368654377cabaec46d929a59e4c315",
-  "sig": "fBrlg8VJvAIAW14H4WPp6NHRrl3PT8oMuBeLTgKr4gaLvdmiygZQYsMsiBAwOrWJUqiDvO6d+K0GZqUxGpyqLalphBzRx7P0DedFOYc4uB5AzsdWWsOkQT4uFmtmVUG1jGSAz+YSsmXgC/HWRFUjWxtE7Ojv9aKEVPG/J0g3xHnCxIxE/U1gP1/LNh4EqoQXJXj/MEhKn0WF9jhrFsQ0yiJ6VDyIPApeb9RNd58K9lIQg6hs9WfgBQ7TNQPhwIKV9/DyIYQ5buHgKz153dSU1DWX5hifj0p7s/3TPT4HbfNP/2JxjE2C1jWVpMPCIPKZj+EdXyzkIGESOi9LCQ4xPGOPzwoFJxtWKoXW/1m1t/cX/CKACyY1WSezkwsFTUIGoDzM8e85zqFAYKHJ1HhJJMCJq1f5bFioTKu4fzYMX3RQi/n5C5ApZz/jCBEdzY46/Da5KJlFcRFOA3z4EiiFIwkaIGNnvu64kcm+VDVswqjSvIm69+/eMRyNubZs8IG7",
+  "version": "3.8",
+  "name": "3.2 BETA",
+  "setup": "NULLBOOT_Setup_3.8.exe",
+  "sha256": "b8f548ec84b73f52e3f47d40619f59edbdf5175ae209c67458005632f790227e",
+  "sig": "D1BEEt6cbzRk/WRJF93u9dQGhAAcixcUOnfvA/jzojzd73teho9EBNORK621C2Xjq97OBCLX4v87a5swk75NIvkg8lgJbua2NqmdzjD1PgY64wTCy0v7l6DJ+AQeZuedendGaflWAMQecFcHnavhBtINzbzUyHMYPN4h5SNB+zbmGWGNi5CoDktys8drX7Z0o+w8ZWa0ibqeWKITwh5Iwo1zWtV9AZWMIUFnNDfErAr7F5+TY/CSOyg53tN+x9Ef0rBUdLqgFnZC+7VDVtegj6uMIJs7bt4IzoRJZZT+7CO+bhd51E6gI8FIiBa/jR6ZNPELvQIkKrX3+sEb1XVe11alsxJ8ke+6mnmH/Gspt4yBbwHOG1hV3tHVizNtCv+GdDH+g12cYT9RQQGBFGFtLv66hnFUU9gNJXzzf64nTxjI+FnR5SyzAC6lKaPNubCTEHkd+PeiMhhCv4WbuI+i3Lnh5s/BhWl8lFJbZeay/qUSCIDxCXFd9lKtyrVUblOo",
   "notes": [
-    "Мягкие чёрные тени по краям окон NULLBOOT, установщика и удаления",
-    "Цвет значков и подложек установщика и удаления соответствует теме NULLBOOT",
-    "Обновление на отдельном тёмном фоне с едва заметными частицами",
-    "Переход от заставки к обновлению без страницы телефона на заднем плане",
-    "Окно обновления сохраняет масштаб, на маленьком экране доступна прокрутка",
-    "При нажатии на шар появляются вспышка и искры в цвет темы"
+    "Единая нейтральная тёмная палитра и выбранный цвет во всех окнах",
+    "Установщик и удаление используют тему NULLBOOT без белых градиентов",
+    "Изображения в установщике соответствуют выбранному цвету",
+    "Меню телефонов закрывается повторным нажатием и показывает одну отметку",
+    "Плавный переход между устройствами и обновление характеристик",
+    "Обычный режим iPhone отображается как «Система»",
+    "Команды привязаны к выбранному телефону; другой телефон не подставляется",
+    "Усилены проверки модели и состояния загрузчика перед прошивкой",
+    "Файлы инструментов доступны из приложения с указанием платформы",
+    "Понятное окно блокировки загрузки защитой Windows без автоматического повтора"
   ]
 }
