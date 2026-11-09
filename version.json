@@ -1,19 +1,19 @@
 {
-  "version": "3.9",
-  "name": "3.3 BETA",
-  "setup": "NULLBOOT_Setup_3.9.exe",
-  "sha256": "ed43c797346edf754deb6d4d8a8a88a3404f44639b97fac83d766a2855667da1",
-  "sig": "PoQsMkcH8U34Tlxwg2+aRp5QyOqAlU6kri9Nb72fEFLjy1RxQMoo8ODkWkioQR/FCZRYJIqVRGTmOTUaWdywMFLsMK5eWNHtqHFPL02KLfs1VGdlE8v4VTo3y/JLn2Sb9E6Wid3ChFb14vJPQJu/jRGp5xeatMj8yVzWlY5ge9Ls36xBIlwfEQpHOVh0R9yUOnRLAjkxNbItB5p49iUcUoSUthIY6H+QLYu+cEKvRZmhkTi04BdaVJwR/pJuywesKCseLfR2v3e2USuuRpAKjw5vjQpBf/23g6OlPFtReS4CBjRmPKTwTOrbUopLe7upm0+XYJdFoXy2NQG5VSqC2pxucOvrMfVo4JahNq7XCGSexu+VuQDfqfaHk+ci8bEzmlA5gr8HBgOuey1sd9QIlEbqARqRhbLCourtQviNiVdvTzfUxkhHtD/Vf0X4K2tzXHdPxWPwPhDm0W/P4YjB/tBB36yPe8e60Qkt7thy3bHyFSppaVVQX3bYtzl+XZ/q",
+  "version": "4.0",
+  "name": "3.4 BETA",
+  "setup": "NULLBOOT_Setup_4.0.exe",
+  "sha256": "1e6b8c92d0d7d68d796fdc2809cc6d8b9c7933810aa950bc3f722b5f8cafb12e",
+  "sig": "F+Ajc5weu2vlh4RhbArZ9/d1ClA6ln+MqGilpmTRNRCnKJkGPZXxPrTM8Dtv9khCPSN27MCnnUcwstPpPBFU8OyDLfDlbMvZOS9PAOnQO22kpB0X8PmXewEXNBs6iHC1Tm1CCfr/SuRbXzZ1saChb6FBZ2thJxnHCWpyGehqY7vYBtYBpvW0AKHU9dj0sIQztELAuKg6eIACtSk9ofMVfcdYzwOOKMIvdYtxhptQHpka3PmBsHVSzzKS65ct0tRdf75NC/3EAhENlLbivh97e5tJ19KUHbJstPz7NnsROnCbbtyc4Izc5mrw7VKTyIo96Q4cbcbntquJyOZ4BpBUcg7Q5QKQ0xiHRYG4ViojEf7hWG0VzB192MI0FQHbhndJ7B2oKCPub5d0p+RP0oPy/oMUrhi+iHbef+LfOnNwJ8/NYDZqPOrmdnCbTyaLKcltsc6jJ4pJYmn2d9oCeSJRRM5d+Wb5vkT8I9DIoKiVts/AKOHLnnUQYsRwHdlMsnwg",
   "notes": [
-    "Просмотр фото и видео сбоку прямо в разделе «Файлы»",
-    "Музыкальный плеер снизу: пауза, перемотка и громкость",
-    "Плеер и ползунки оформлены в выбранном цвете NULLBOOT",
-    "После отключения телефона список и просмотр очищаются",
-    "Кэш просмотра ограничен 256 МБ, повторное открытие использует готовый файл",
-    "Картинки установщика раскрываются на всё окно со стрелками и кружочками",
-    "Просмотр установщика закрывается крестиком или Esc",
-    "Скрытие личных данных охватывает IMEI, UDID, MAC, контакты и пути",
-    "Переключение скрытия сразу обновляет старые строки терминала и процесса",
-    "Инструкции для iPhone: Sideloadly и джейлбрейк со ссылками на авторов"
+    "Убрана автоматическая установка драйверов и принудительная привязка USB",
+    "Снижена фоновая нагрузка; старые Android получают облегчённое чтение данных",
+    "Проверки root учитывают версию Android, ядро и подтверждённую разблокировку",
+    "Модель устройства определяется отдельно от бренда установленного порта прошивки",
+    "Файлы: чтение TXT, JSON, PDF и других текстов прямо в приложении",
+    "Поворот видео, анимации папок, плавная прокрутка и быстрый повторный просмотр",
+    "Отдельные вкладки драйверов и разблокировки; поиск понимает русские названия",
+    "Поиск тем прошивок 4PDA и встроенный браузер с обычным браузером в запасе",
+    "Экран, снимок и видеозапись объединены; обновление доступно под данными телефона",
+    "Расширение ext4 в пределах раздела: проверка условий, полная копия и подтверждение"
   ]
 }
