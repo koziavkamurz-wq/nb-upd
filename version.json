@@ -1,19 +1,19 @@
 {
-  "version": "4.0",
-  "name": "3.4 BETA",
-  "setup": "NULLBOOT_Setup_4.0.exe",
-  "sha256": "1e6b8c92d0d7d68d796fdc2809cc6d8b9c7933810aa950bc3f722b5f8cafb12e",
-  "sig": "F+Ajc5weu2vlh4RhbArZ9/d1ClA6ln+MqGilpmTRNRCnKJkGPZXxPrTM8Dtv9khCPSN27MCnnUcwstPpPBFU8OyDLfDlbMvZOS9PAOnQO22kpB0X8PmXewEXNBs6iHC1Tm1CCfr/SuRbXzZ1saChb6FBZ2thJxnHCWpyGehqY7vYBtYBpvW0AKHU9dj0sIQztELAuKg6eIACtSk9ofMVfcdYzwOOKMIvdYtxhptQHpka3PmBsHVSzzKS65ct0tRdf75NC/3EAhENlLbivh97e5tJ19KUHbJstPz7NnsROnCbbtyc4Izc5mrw7VKTyIo96Q4cbcbntquJyOZ4BpBUcg7Q5QKQ0xiHRYG4ViojEf7hWG0VzB192MI0FQHbhndJ7B2oKCPub5d0p+RP0oPy/oMUrhi+iHbef+LfOnNwJ8/NYDZqPOrmdnCbTyaLKcltsc6jJ4pJYmn2d9oCeSJRRM5d+Wb5vkT8I9DIoKiVts/AKOHLnnUQYsRwHdlMsnwg",
+  "version": "4.1",
+  "name": "3.5 BETA",
+  "setup": "NULLBOOT_Setup_4.1.exe",
+  "sha256": "11dd16169af575753bef994a035a2f5e720b47c6eb34829a1fdb4b1551eabd8a",
+  "sig": "LMaHkCrKufp1RKYpjHMhKa7K2I8XCZ1UKCc0qVp1Vo5Qkkp8/wYtjsGTY2eDk4lUdNxdfr18VSbEZyFMhG7du3cZi2e2LT0inJwrMxhN6u4nTY443xuOdkpzWGSlXOrJz0p2xpYJcVPpQRSCmFwrjY6rFKojkylnrJaDL+JsOgJgsyz8fqIpkSU7UBWfrHUDMI2Zugf+rE068wRCFHn+RWjIt1I9yWORAtnxfqtgHkk5xqpREVzIR752cT3ti1Katli33HkgNC8VxrnKvkqCQ10JCwabPF2JKVnwuvph248Pnivn4RA29lAE7BIbGANMr+eqBw2TlAPpAB+bFYI8uOhxxbWfTPeE+ymO/iCjTHBbMhO7pWJ3lUanS19E5I9311dSew22UNVToE3yqXUfz4dZpuLi4GPwnCklLPxa5DRYqekdnmr6umJ5QiOYAUyTUv6NzBCtwPJtAE3TUfrnf8pqlAd52SUjHun2k+2C7irgYE6qRoS0V7/9B0mW6KTf",
   "notes": [
-    "Убрана автоматическая установка драйверов и принудительная привязка USB",
-    "Снижена фоновая нагрузка; старые Android получают облегчённое чтение данных",
-    "Проверки root учитывают версию Android, ядро и подтверждённую разблокировку",
-    "Модель устройства определяется отдельно от бренда установленного порта прошивки",
-    "Файлы: чтение TXT, JSON, PDF и других текстов прямо в приложении",
-    "Поворот видео, анимации папок, плавная прокрутка и быстрый повторный просмотр",
-    "Отдельные вкладки драйверов и разблокировки; поиск понимает русские названия",
-    "Поиск тем прошивок 4PDA и встроенный браузер с обычным браузером в запасе",
-    "Экран, снимок и видеозапись объединены; обновление доступно под данными телефона",
-    "Расширение ext4 в пределах раздела: проверка условий, полная копия и подтверждение"
+    "Исправлен приоритет определения загрузчика: прямой статус важнее цвета Verified Boot",
+    "Разблокированный загрузчик отображается по центру без лишних кнопок",
+    "Поиск в текущей папке файлов; кнопка «Наверх» убрана",
+    "Пустые папки и результаты поиска получили плавное появление",
+    "Фото декодируются в фоне; убран тяжёлый пересчёт ширины при открытии",
+    "Выровнены поля поиска, длинные подписи и кнопки; окнам добавлена адаптация",
+    "Окно «Экран и запись»: крестик, закрытие по фону, ровные кнопки",
+    "В мастерскую возвращены логи; «На телефон» переименовано в «Загрузить»",
+    "Для iPhone скрыты поиск прошивок и инструмент DEB; исправлена смена марки",
+    "Быстрая отмена зависшей загрузки; браузер корректно скрывается под окнами"
   ]
 }
