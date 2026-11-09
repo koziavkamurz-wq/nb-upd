@@ -1,19 +1,17 @@
 {
-  "version": "4.2",
-  "name": "3.6 BETA",
-  "setup": "NULLBOOT_Setup_4.2.exe",
-  "sha256": "7b446f1d789d84487bc55f31c100b76434636ba0aa2235bf63781f46d4d9e74b",
-  "sig": "aKTI1vQGQ6iRRlgRFmmYi9eSNxKnPx+F7BAKBCf8OYZ9eNMtgbdXgRvNGzF9e/ljUhQV+M4d+P4U/kB+0ao9Rurq48S3bGUg5rkLh8sa+/iebQDN7epyrX9j6pO8if85bXbdaiZAYlXc2PwKE9BblnXjBJpKRJwx64CkWA4OxRRPb3HAAvpZKzPRxhgMG+yaPq7aFVIyIKxaCVfKelk4FZfeW2wLyziwM6bGvx1DdGTaMzsF8OKipxq+3y+e8Chli3MKm/TxoFZBbJQpDMV6GShZBmD0Bj6MCFVlAgtXyvCQUvVUmXPC1gbOFIIQo+Uet5/7rRlFWwqU8GRBGYno+M+XlBQKsaEbwckUPxStGSyLBoUBAkJD4P2ERslJKH/acCIM0tyKjsjenDwNIqS05I1y6+VlXL7olpq0xwHUDkOBYeYa2HLAKRghRQGDc0XQz7yKLBazT90X/HnEnYJzhgnwA6VG1f5bHoCXSs1miWfVlT7+LTPstZugkfBz5UWt",
+  "version": "4.3",
+  "name": "3.7 BETA",
+  "setup": "NULLBOOT_Setup_4.3.exe",
+  "sha256": "ba332360d614b8a37676e5bc742a931df962af6a97cf8db89eb7d038c52ca4b0",
+  "sig": "PJnOq36Nd67JOnaVaWZZHo5Q1pRH7wjhkK7k8VYjfjiG8ih4MA/a8wXRoRtbqvhpDy0L3Gr5eLvzHRoyg96xKhqWsy4YRps2weQaens3+ZexT9zbQOLZzRK5c11lWq5W6ZzYLGwYP3LQIEJWWpTI9/anME4xIwywb67tt/qDRHminYxsWz83Psl0v+3iRt5nBA4MSFqzGsMkRRyU5PXUHkChGUjVX3YudDkKB3QHYQHa2X2lMLOx9pkN+iy//qTdfnu6oD2IsYMqbIJWnnObJati3s28zHygRM5b5nWaK3xV1URQl8hIxKU7MiK10+FI8JEvRKbU1W5Wi+nAvikrCOtDQ+zNYkdSYMNaKAwGeaXuOo2g8QwdsNYHjTMZbhmbXtaCcF7MZv6uR8tmajjWCPrGkHyGpNXWa9jn3MBSS5KoBhlayaQqIyQt0sjhg9l2eg1eIl8sUli+Y+UNgI+PyorKuVT5aar418cqUJeUxMVsMwyCNFPNv/HMJYg2XVMU",
   "notes": [
-    "При противоречиях порта статус загрузчика читается из параметров ядра",
-    "В разблокировке убрана «Отмена»; подтверждённый статус показан по центру",
-    "Поиск в текущей папке файлов; кнопка «Наверх» убрана",
-    "Пустые папки и результаты поиска получили плавное появление",
-    "Фото декодируются в фоне; убран тяжёлый пересчёт ширины при открытии",
-    "Выровнены поля поиска, длинные подписи и кнопки; окнам добавлена адаптация",
-    "Окно «Экран и запись»: крестик, закрытие по фону, ровные кнопки",
-    "Мастерская: сбор логов, расширение системы и кнопка «Загрузить»",
-    "Для iPhone скрыты поиск прошивок и инструмент DEB; исправлена смена марки",
-    "Быстрая отмена зависшей загрузки; браузер корректно скрывается под окнами"
+    "Больше характеристик iPhone: платформа, модель поставки, регион и возможности",
+    "Проверка признаков джейлбрейка через USB с отдельным неизвестным результатом",
+    "Android: платформа, SoC, отпечаток прошивки, сборка и патч vendor",
+    "Доступная ОЗУ, область подкачки, активные ядра CPU и ток аккумулятора",
+    "Сведения о динамических разделах, A/B, шифровании и состоянии SIM",
+    "Память и батарея сохранены сверху; новые данные разделены на группы",
+    "Чтение характеристик не запрашивает root через su",
+    "Размер ответов AFC ограничен для защиты от некорректных USB-пакетов"
   ]
 }
