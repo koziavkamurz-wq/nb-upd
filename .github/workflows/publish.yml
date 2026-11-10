@@ -1,0 +1,45 @@
+name: Publish verified NULLBOOT update
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: nullboot-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check update files before publication
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib
+          root = pathlib.Path('.')
+          feed = json.loads((root / 'version.json').read_text())
+          assert len(feed['notes']) <= 10
+          for filename, expected in [(feed['setup'], feed['sha256']), (feed.get('delta'), feed.get('delta_sha256'))]:
+              if not filename:
+                  continue
+              assert pathlib.PurePosixPath(filename).name == filename
+              data = (root / filename).read_bytes()
+              assert hashlib.sha256(data).hexdigest() == expected
+          assert not list(root.rglob('owner_private.xml')), 'Private signing keys must never be published'
+          print('PASS manifest, installer, patch hashes, note limit and no private signing key')
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          name: nullboot-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        with:
+          artifact_name: nullboot-${{ github.run_id }}-${{ github.run_attempt }}
