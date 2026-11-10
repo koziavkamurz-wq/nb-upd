@@ -1,15 +1,21 @@
 {
-  "version": "5.3",
-  "name": "1.5.0 BETA",
-  "setup": "NULLBOOT_Setup_5.3.exe",
-  "sha256": "d25711fef66c162264c9edc92660da893b1aaca74983acc364668c717415b49f",
-  "sig": "QBwmWIXLzy5FOiBYGb6P/TJzfJtvgA3HS5qiSVnqRIMw8jb/Z0b3uOv/AJWd1dHH171TfPHWBrW0a14X1Mp1+466XWjCUeuFfPIxprMNlhXa5jmzxZkt+V/VvoRSUUaOERSjVv2exDsgBYoT1AqGVXldrtwn4MtpUQGHKvuALh1234K9zr1/f6tFS08UGHT70sa0F3siG+uh9Wzt5aMAnnKe7P9/2aooiOyI9TPj/o08z1brxnLERmACx6Lvc/v/COz5LDVzr16ur3ImY6mRLBQP6Ix/dbKEYpDLNxg4eZWRCM2vzqika27mCZm03gGbQzn9YascfCAtYhIX5JFviiJ60JByuDeX30VQEab896dpcqg16rZJIBKguuyYAxAHY6GZvBvFvhmU71S3lv1Rkt98Xmnyd1NpYf46WAbzKUkmLAAumCcr6XXn2vvztRmE7QL32E7H+DeWBMl4aSgQCLKx/Y41hASqO7c+0soBKTSHjotdkDUV/YWqSr8mo3MI",
-  "delta": "NULLBOOT_Delta_57aef4c82e77_5.3.nbdelta",
-  "delta_base": "57aef4c82e77dfb433bf1d97feb93d6a79582fae8fc626bd1dfe0dda4806f6eb",
-  "delta_sha256": "e1bb0989540e464210eea7db806fdc0002612e2e9b2be7f9cf998af29f3be1cd",
-  "delta_sig": "iWEu76zSxbs95g3IcDelH2WY2CIwp59SUjXPNgr4C9L3XINLNCAudAYa17s2+oFQG8x+R7fNHY9e5XaSnxXScrChY2sG1Vqe8vLoqkNcC3HhoNnoR2yuqU5a4BTYiV5wDnPcUTel66rP/QQb3VfzOJnBAdooTWoH1RAg8AoRUvBEgP0X/GlUgmUQ8MUwUEBoa5Pwqs00fmecSAf45WxaoeftTZc4MU8EQ6rfKlLCWSLBcICwYixyuokaWz+q3uhtsB8JIffL+ztajlNh+ja8c3gIPjgC3Y1WegE45ku15Dtz+Do80qOLVBK3+j1gzWNekpUDYZb3OPHBIx9c9DLb9CPyiUyfFeDn012y5UC0+irBrwfYxaPeKBGhrNaitRafE8sMfWdrWjEABp1cD3f662Faul1gB8FGlUFFEel33hpsPWJUNN9k5fHg/G8O1Jen+IS3xHM5zV6S7zvns2sTWdBPdt5z24bhuPNqiwC3rnY+PXTe2MhnwkXmmyeOIf+t",
+  "version": "5.4",
+  "name": "1.6.0 BETA",
+  "setup": "NULLBOOT_Setup_5.4.exe",
+  "sha256": "9e04aa6c07fa5bdf0ba8381e48c591c84d68f068dec3ef7fd1aa6a80753e90da",
+  "sig": "M4rC/AFa1V46lwgLsSKNT3zzWbF0LeksIdHxkAzj6QybS6dx4ZvMATHAT42eyQOGOBLlPpOqwczgz73rQUrv9w2naZJVvAznl0z2o651cUxhs0WON1Qp4uaw5rtaIZZd7qgz3rooMJS1wDUqlwOm8HRvwbBMCAZzfKvrMB1To2WqNGTME+IwolRnJPpRXol5hXrbgP2wlalu0JxNSp6teHsHLFhoCLFAj+iukeo54WGHHZxXQ9O8Wl/Rv2KvnOBwXKQqPU1GZrUWpYfsBwMED0+UvMSjAJYTQQJtyodlX2vi5xlYSIOj3AOPtu96hmcwGJukT3kj9w7IVtHFHbeMUkdrZiXutWrQbK5yJznsbjIBIqzZFdZO9ff2O5hHL+D5GWFBcTd5gdmcgid6RrxT2HcG7ys0T+fdVNnWbbT99U+Urw8C0H+tPYv+uHkvhCmd0DxZpDxLG2gD8Kcwf0m44c0nRMV3nO8+7HRHDID3f/ZFPgo4SbTH6mgKimAXJa0M",
+  "delta": "NULLBOOT_Delta_d25711fef66c_5.4.nbdelta",
+  "delta_base": "d25711fef66c162264c9edc92660da893b1aaca74983acc364668c717415b49f",
+  "delta_sha256": "136e8030244daf3927344ea1121849999ae128dd936306ceb9a4b2af73359d9a",
+  "delta_sig": "aI65pD45sDaCGfTaA7gt7mffgJnjpiCGaDE5Uyz+aDEnoW8IuXU7L4khscqNUqnOfgoCNT5rck/lu9SR0RaCz4j/UYnIJqNPoPSGBqHVA88cNHMnHZoV3yGaZV6cVtVxJOJLUNCcgLYOIiiUjZLqU3oV98xBrd34FcsFqbO2ZyN+kj3q0heVA8qNGbfodgET2Jv6w/vjUiGaOXZh6PpFj8XPiaYQ9uz/zNiTH0oGVbyQg0juWx2vbSwOAvi9G/KW/f2IPtAHqCEm8OfMMgqdi1App37P9XRrSviscjNeH7E/ns3wwYY+Zb9pFq8aiJw+SqUS09+NOMuQQdls5glc7sq6QX6TCgnzT45JUczCdO4AbTUHxDhOPCUdxNLQUM8ZMLFTBSwKq44+J+GWlXqWQsItT5NQ0DKvDjAJ8t4M+HMeYbgI4+zycm4sQYdfq0d1WTV7khLjZWbzx8ouk+pAcxYOTekX429aXoT46dCC1uzZoKECFYCSp1i7Nhz9+kO6",
   "notes": [
-    "Светлая тема: кнопка «Выйти» на экране безопасности больше не белая",
-    "Полоса памяти: короткая надпись «63 / 256 GB» больше не налезает на подпись"
+    "iPhone: отключённый от кабеля телефон сразу пропадает из программы",
+    "iPhone: режим восстановления определяется правильно, «Загрузить систему» больше не пишет «уже в системе»",
+    "Подключение и отключение кабеля замечаются сразу, без ожидания",
+    "Репозитории: добавляемый источник сначала проверяется; если он не работает, сразу видна причина",
+    "Репозитории: источник, который не загрузился, больше не пропадает: видна ошибка и кнопки «Повторить» и «Убрать»",
+    "Репозитории: для старых iOS предлагается последняя совместимая версия твика",
+    "Репозитории: установка на iPhone дотягивает зависимости и работает на старых джейлбрейках",
+    "Репозитории: понятные сообщения, если сервер не отдаёт файл; убраны неработающие источники"
   ]
 }
