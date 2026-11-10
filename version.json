@@ -1,23 +1,15 @@
 {
-  "version": "5.2",
-  "name": "1.4.0 BETA",
-  "setup": "NULLBOOT_Setup_5.2.exe",
-  "sha256": "57aef4c82e77dfb433bf1d97feb93d6a79582fae8fc626bd1dfe0dda4806f6eb",
-  "sig": "BDKu7j4IgeBIAGG2ITa9LLAif+No8l9VjT5zkO61r0aCP+RS9Z9+uQu/za4jHF8AGRzymP5sEifUr4Yx2HMHzxhkVQ9ICe9Sobmu2z0nWyjiY2JSa4DFAtGSCYGamdaub5udtbBWuWVVMzOLaTMgppkBdvHtaqKVMA2wcVHaoF5gO3V/tFwUT15HhqrJ723BU7Adw3yYu3L/4yQQ8CDrXge1e7HCb1lFsFa6LmCJ78s0UtoxkLYTZrBURcuOTcEO1/ZEbiOpYVRl8yy2zH9WLV7+F/nZ3uLmBiKU2AmTM7cw3/A02uOXUSi6UdWfg8nTAp+2SFJUGiacx8DLar8dLjqQjcp3QAR6QrILAwNRjh7dkKwf3VOs54fvOL5jzEHRtC3IpTPlx6TbCAzd7DfpnZtFyMZwFTI4ijKzWkm1wdoxTXJxJiaOrBmXu4dL81bvIhuhIbGoOC2N8CWPnwt9D/rvutLLw1/LJzkyzm+oY2jf8saOFiXYIeA2TvlfA7G9",
-  "delta": "NULLBOOT_Delta_6dcac7b14349_5.2.nbdelta",
-  "delta_base": "6dcac7b143496d61cbeccc9c7581b4647937e54ef2c4b9c2beff97cb690a1098",
-  "delta_sha256": "b26a4b802170d6e4278ba51b439f03e346d53a055b03abe276d1dc4674d79f70",
-  "delta_sig": "LPsuUwCM6wGLjGIf/Red4hU4F0pnbIuv++gi8qJtrdVybcQ9CbAeCebc0B1vaSOpHYG7FiCca35vlZneho4J2kRkxU4sY7WkU8BK9qU+jW1GwJSGNim00yCgBUkBVXEPhaJPLwMMeHJs5jQUU3qkNqopszdPI7UuAj7JMYD7j2SDkgisHeDctQIs1+jjq+cWf/GjoX43/HDDETIK7jxf/znkkzkOOxfDFPK5jaVhAiEzR6er4BMnwMQRP2kMJg1vFl5vPyEfaViy3wmAnIw6mohbvnvfcDY85EU8EYtUc0MBgpJhI4+WreTJQEE05mXsqmRQy7yxiSJc3TlQtI7dtZyOByIARSfcjjACHYOfhzsI8W4w1nzbxAfv9oYr5JIm5hUFS9VVDSTbrOKlt+7tFUo/bJt6cGKxHVEhFaQXxieaDf/1yMAhS7j/HXIB0m2oJxHaddCmN4m6FrbD3XkB2Vr+JIrS1kPaDRGrQkoAOwP+S+QzOK5pHgGy4xojycS4",
+  "version": "5.3",
+  "name": "1.5.0 BETA",
+  "setup": "NULLBOOT_Setup_5.3.exe",
+  "sha256": "d25711fef66c162264c9edc92660da893b1aaca74983acc364668c717415b49f",
+  "sig": "QBwmWIXLzy5FOiBYGb6P/TJzfJtvgA3HS5qiSVnqRIMw8jb/Z0b3uOv/AJWd1dHH171TfPHWBrW0a14X1Mp1+466XWjCUeuFfPIxprMNlhXa5jmzxZkt+V/VvoRSUUaOERSjVv2exDsgBYoT1AqGVXldrtwn4MtpUQGHKvuALh1234K9zr1/f6tFS08UGHT70sa0F3siG+uh9Wzt5aMAnnKe7P9/2aooiOyI9TPj/o08z1brxnLERmACx6Lvc/v/COz5LDVzr16ur3ImY6mRLBQP6Ix/dbKEYpDLNxg4eZWRCM2vzqika27mCZm03gGbQzn9YascfCAtYhIX5JFviiJ60JByuDeX30VQEab896dpcqg16rZJIBKguuyYAxAHY6GZvBvFvhmU71S3lv1Rkt98Xmnyd1NpYf46WAbzKUkmLAAumCcr6XXn2vvztRmE7QL32E7H+DeWBMl4aSgQCLKx/Y41hASqO7c+0soBKTSHjotdkDUV/YWqSr8mo3MI",
+  "delta": "NULLBOOT_Delta_57aef4c82e77_5.3.nbdelta",
+  "delta_base": "57aef4c82e77dfb433bf1d97feb93d6a79582fae8fc626bd1dfe0dda4806f6eb",
+  "delta_sha256": "e1bb0989540e464210eea7db806fdc0002612e2e9b2be7f9cf998af29f3be1cd",
+  "delta_sig": "iWEu76zSxbs95g3IcDelH2WY2CIwp59SUjXPNgr4C9L3XINLNCAudAYa17s2+oFQG8x+R7fNHY9e5XaSnxXScrChY2sG1Vqe8vLoqkNcC3HhoNnoR2yuqU5a4BTYiV5wDnPcUTel66rP/QQb3VfzOJnBAdooTWoH1RAg8AoRUvBEgP0X/GlUgmUQ8MUwUEBoa5Pwqs00fmecSAf45WxaoeftTZc4MU8EQ6rfKlLCWSLBcICwYixyuokaWz+q3uhtsB8JIffL+ztajlNh+ja8c3gIPjgC3Y1WegE45ku15Dtz+Do80qOLVBK3+j1gzWNekpUDYZb3OPHBIx9c9DLb9CPyiUyfFeDn012y5UC0+irBrwfYxaPeKBGhrNaitRafE8sMfWdrWjEABp1cD3f662Faul1gB8FGlUFFEel33hpsPWJUNN9k5fHg/G8O1Jen+IS3xHM5zV6S7zvns2sTWdBPdt5z24bhuPNqiwC3rnY+PXTe2MhnwkXmmyeOIf+t",
   "notes": [
-    "Первый запуск: экран безопасности с подтверждением, что риск вы принимаете на себя",
-    "Репозитории: пакеты скачиваются и без iPhone (на компьютер), пустые источники скрыты",
-    "Карточка пакета без пустого места и без белой вспышки на вкладках",
-    "Размытие в движении при прокрутке, в списках, уведомлениях и окнах",
-    "Плавные переходы между вкладками: страница больше не пропадает",
-    "Плеер: плавная полоса времени, громкость под слух, живой ползунок",
-    "Демонстрация экрана по размеру телефона, со скруглёнными углами",
-    "Память: «Занято 13 GB из 16 GB · свободно 3 GB», как в настройках телефона",
-    "Ровная кнопка «Стоп», подсказки в стиле программы, без точечной рамки",
-    "Исправлено падение при закрытии меню в трее"
+    "Светлая тема: кнопка «Выйти» на экране безопасности больше не белая",
+    "Полоса памяти: короткая надпись «63 / 256 GB» больше не налезает на подпись"
   ]
 }
