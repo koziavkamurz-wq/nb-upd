@@ -13,7 +13,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -43,3 +43,4 @@ jobs:
         id: deploy
         with:
           artifact_name: nullboot-${{ github.run_id }}-${{ github.run_attempt }}
+          timeout: 1200000
