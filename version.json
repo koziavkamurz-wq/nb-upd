@@ -1,20 +1,17 @@
 {
-  "version": "4.6",
-  "name": "4.0 BETA",
-  "setup": "NULLBOOT_Setup_4.6.exe",
-  "sha256": "735fb8e2d61e776cd7345d64f607d71fb620f6a4a79bd2eaae83e4326ad21bf5",
-  "sig": "INez0KYbeiWQQcMIWsuc7u3KgsZp/yF9K4YpTCARNZ6bCAx4PCk4KhXd17/ynrogqOe2pZHHsdzzjZVFYyoJFngGDU8gyTm7Wms3NdYKajUvyOecrvuWeauTDTi5NUeiFT8SNGR1ndLEc3VODzbWi42OHdA+POV+ix3a8ktmuC6J8ffUMYqmu8J+uGeQypRiUxqJfQTpPv3V2/WU/S9A591vuj07feCA9g9inSDjgNfWhkR/XrS4oLlVugZftajuXyB2JEatAWklC6U27bYIqWP9A+54lAScUAcyESveq6vuaWiPRkep9iPUar3ModoIx3sELM7945aD7M/RM2NTqyMgLIP/e1v6M3fkXvC1MzTMc0+Ug5p7myB7mvXKyuuqhxNMsPBecIvPKI8aMruZV2eRO3VL1JdyPEQLWFz5rm3Rf2TNSjKDSexbzpTjTgFOOW85sZZbtd24PxV3AEJDmKhdM8WJ4YaUXoZ1LXZVb3te4NcU6cWn28LFnaF2z/hZ",
-  "delta": "NULLBOOT_Delta_9cc6ce36c936_4.6.nbdelta",
-  "delta_base": "9cc6ce36c936a198880b9354ef33a0d9e787761923f20ed9e243e7e6d7ff6b9d",
-  "delta_sha256": "ef95108e7b5a9261edc12337cc5be0aeccf492ed4697fe064ed6b6691800759f",
-  "delta_sig": "Dhmw7DB7BdvKo99kttk2FfBTvMVL0WIr8Q5DdtCQKnN7iXRyq5kn6/4n76iAHMuzZ0cNJcjn8q+ZZWw7T6CHQVAhGayy+6HzDZkcuX2f8gXkp7ePThN9A3VV3S5I3VLYw79H6eaNljGaUENby0wY8FE2M0wBlaBbp9LS3KyFEVPcy5drcGo8BSc6XN9uVvVe3T5CpCJbORuqD9JkTi8i2JKNZQwwuOM66Ndvjurv0jqnhaN5X3V5oQhGXfvqugu36GtQvxYJlmNh16c89uWX89upJwkitbZczNqArGEhzIYrRUjkiSvVpW19RtVm+G9qMn2g8YHQ4gqMWslbi8tkWuBp9gOGEtl9O4qCyW3cpTY6+cJX3cjSrRGwZeH9wjjVjrhGlUUy/xBOTdO6gNTU7zQ7nBwYpfBzi+XE61J7fnY2NtZx1UwfvUtOzWuaayWEp/M9iRMMd2Tpr4oV9gILRi9Y75h/bauJhUykezRSIVGMedxF8RsMv5VgXZuAZh3I",
+  "version": "4.7",
+  "name": "4.1 BETA",
+  "setup": "NULLBOOT_Setup_4.7.exe",
+  "sha256": "447615c0b6f5d74e1202b1f473283d6bec491d81697988535d6eb7dc29232541",
+  "sig": "mTjSGc4P+dow+llrTvtvbxXboX7zcgcR7keTOmo4heOM5ZmOrMeoc7yNArzvoch7BruazkQLMb2VkaXSc0Fxqwic6UL2pgSusGNX7uuGeLPwiOGYMjsvRCcBzKLetzvC63pwCYAN4mfN220SAC5eKD9w9jx1d3nWapcalno+lyV8ktTzuSvxnElNzVNltg7nq72nLsKokA1ZHFT8RrS8wfRI3HMRpmz/ZIKFD2mKiVW7RKLlvrKSpTKCCHgqkp4WvifkBHaGjBwlneIr2OqX+J5Ax+Vwf+zsVsvG5y/eCJ4n2pSwejOaA2+Tda6LNiUMx/WYoqYvOAEGxrAAqtuYwe31SjwPOn5o3oh3QtEiBvMHTfc9mUaVtbADRqPT2PjY6AIXMnGLaFJWcd70JspaSBnPA8EGRHtHIKR9+g9SahxCsvzFHFWDzt7mO+EROeiWBi3umJjgfLiaoa5AGFQNEhlOW9usbm+4WANFs7Z5yAugn9C/zu91b6nMs8AbuoHY",
+  "delta": "NULLBOOT_Delta_735fb8e2d61e_4.7.nbdelta",
+  "delta_base": "735fb8e2d61e776cd7345d64f607d71fb620f6a4a79bd2eaae83e4326ad21bf5",
+  "delta_sha256": "6afb5540d6eb6318d53bfdb9045ba247a3389b75a975f9cb1adbd50432cdd0db",
+  "delta_sig": "gDvV1n1NwGDUPUGVZunJ8CV+Zvhb0EVeSc3ozlBw1qVV18QSq62l/35Q/wbwj3Pqzt8hwbTSoT0ZWrsS1yessDdG0AL7b2rZsg4OMkfh9GePUADGnYO4mvrhAxaMN0ac2vVb/pL32SsI4CuHPjTiN1ZknMY6nU/Zx4fLZ4rObrovBX2A3fi7Ez98X0aaeET5Q7EjREgT8pB3rKkuFWmYPGBtyzpcVdFWiQC8oF3lPG+HSRSkfHId3eYtHF/9AhBxbYl71xSf4k1ByNSXz2KDTZh61j4lLasBYSsKKujSfjwzn058QC3NzFGzNYIhLxutIZ1gm+YK/n0cYU8rSO/uHJ1FI0IquUXPKD6deL5sFbNdpDX9Ty7A/Z4pbEhZ9rs1BxCiau+Nc/UQhsDA6Avy48pGl0QbG6NOmtBWSsO/6DkWKQhMGBR4ymQi0M6wKkFyGuBtYZNbXxvfNZYEE5gsFqqViDirQ8Hu/MDgaMp0Fx0++h7H0BScCPOk5KpCOI+T",
   "notes": [
-    "Просмотр файлов больше не ограничен кэшем в 256 МБ",
-    "Предыдущая временная копия удаляется при открытии следующего файла",
-    "При закрытии просмотра временное фото, видео или музыка удаляются",
-    "Оригиналы на телефоне сохраняются без изменений",
-    "Большие видео копируются без общего двухминутного ограничения",
-    "При отключении телефона просмотр закрывается и копирование отменяется",
-    "Обновления скачивают изменившиеся части при наличии предыдущего установщика"
+    "Установка DEB сохраняет привязку к выбранному iPhone после переподключения",
+    "Каждое SSH-подключение проверяет постоянный идентификатор устройства",
+    "Начальное подключение SSH ограничено по времени",
+    "Небольшие OTA совместимы с обычными установщиками предыдущих версий"
   ]
 }
