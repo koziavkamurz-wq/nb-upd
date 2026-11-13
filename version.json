@@ -1,20 +1,17 @@
 {
-  "version": "5.6",
-  "name": "1.8.0 BETA",
-  "setup": "NULLBOOT_Installer_5.6.exe",
-  "sha256": "37035a1ba5d9454634b0528e43d5793e68cff2c567ae59aa4b4b737e047add32",
-  "sig": "gjafHposVo6TyKsQd5G1pzjcGCcY4dcyts/yCzAqDCfDWyCKxU/FPMUcQp+pGT7NpKXRl/rWylP2iE1y/4h7AgR2O18r389tsu+4IFKVKZHcSqt9w7iWvJPJH+NgdiBUfqoYDd4nFLvumC0sYqUnfZbr8go4KjFvLU2y6bX3sbYV0aNA/sDmMdVvYzsCLW0qitbtbtcfHOjQlPSUb9rZG6MhuRSMmIu8GRGE+/vFxDjEBk4ZH+VHN4wE9/IY5yZkYcWOb841JD3LHqlqm1tqB61ttcIq7kwupuyAA/Rs38A6Ty+0MfTEMAxozbzjM2sPC3t2VIVLOm4TqegKQ6zAfcPzvDIL2oejE9HSE7Q1Leoifxgh+LJKONTcWIKuJxXb48dpGAu4+LrQY7zwfmIAwVkamxGlxR6h3/rKYppMl6Wrf9Mvfx1u5DIcoUvp4DInk7EVwXcYoNzSgnXB4NbXu8jUKCKPuXh0OkPwvUq5Jkc0UTir7WJZXC5pwudZtLWv",
-  "delta": "NULLBOOT_Delta_7174d29697c0_5.6.nbdelta",
-  "delta_base": "7174d29697c0665abbc7afd8e958625cd346bcaf02efcc81ca63d60711e4cdb7",
-  "delta_sha256": "b2a4d66291965d5cc5d4615fa0321fba3ce883924ec6762620b9b43c0fc79224",
-  "delta_sig": "C9SkBY6MgSZoMgCS6CfMvluEQ3SN2Gsra78D9mDnA+gnHRCTmQ5s2huw9DBYu60LFvVZ7MQoVjL0DFhHAbEnnjGFosf7Z/f23giepeuqiW1Wur8zLBMLkUaYi/mYDhtKFORjYFQlSn7IVjtN0pVBbkCCfZvxZ4a9JVz1NeX/coATjo54gGRVnTZ4OhWPbWOWsBDy/QxfVkKaiO/whkW0NrfRF8e8ZF5ZL/7ePKeK16qg2i1KaSq6YWophZ8D8XuzS9/NXb7pyRB0712Vfo3EvFaYGfZNihEvZTNRxBdHeYrehferXqmi/+644LPJjHYWCCpERtbGYZCClua6v87J4kk9p0cmoR41qgb3vlWIJ9/khCVJk1tSkiGy73Q0MJi2o7SGZDoMmZgJ4w7PQmPLvNKrxKKIlAS9hOcbz/rXX7xqyC+sDahfj2NHNvcVqtojyEpsNG2viGLZ8E5rS6BenKJx9Kw9LKq2VtOZKJY51Tid6nPbSRM/bxuAOob1fCL7",
+  "version": "5.7",
+  "name": "1.9.0 BETA",
+  "setup": "NULLBOOT_Installer_5.7.exe",
+  "sha256": "bc9f34b84dcafda1aaab6d2d542b22eff2bcb579f19d5c5e083a3742d303c1eb",
+  "sig": "et5VYbYM+5DJz75vysG4gbSNoSG9GO5FApUR+xu9jgYMrMZ77dEcStbP/G+6KbCMtCbdbeBHMIbh80ZSSzhuHfFh/bZdS6HlY4N6b+2NMdtOeON4nunQCyBYXJX5b5u9DSnyH3ZoU4TpCIlTPbwLGWULpXK74phn8NtuQC7BJEN9zwHqQzVp/A9Iu4xqHetcaIoVb41EgEC0GjsuaGDeUc+L8fSPIaHAMGCS01nRlSrjWcmw6uviTU1IOQqhKayQpvLMH+pY4BM9/+u0L6VNPHruUj1GQB/piJqz+EZurDgIRk9mt82agiWc54OOi7nFpRwnjtaj/L7+s64ApiDaYqdD16rX9G8CQzTXWbYWVvVgJfHfZle4EVTsCXpKUJxmYE9IKlcvWPYHI9ykTS7ozzx3nlLdyhppeQQ4PlwRWn32W+L2lkc2pbhrbFLy45wli4se5ZuoQY+JWpbhRKwAqqDz3WP5Xd7TC5LfhsjjCtpP8znkD9PvQQkuck5vzm1g",
+  "delta": "NULLBOOT_Delta_37035a1ba5d9_5.7.nbdelta",
+  "delta_base": "37035a1ba5d9454634b0528e43d5793e68cff2c567ae59aa4b4b737e047add32",
+  "delta_sha256": "dd0b9a3313f9867759a17f753b9481295b9f1d72ca73a95f8e7e347d95c5dd9d",
+  "delta_sig": "mGbs4wuQcgDVcAkt1TfuKgSs3egTmyBbo18JHj14XXSrAJU/9MkdSrsRi+Q8bm6n4yHI+gMM3nXH+MQTR2LRDk6EyCzxnun8rfWewMV0sbjx9TnwoKgmSzgEF1Iu0CLh4O86YHmqvYC80yvDrjvr03RMEJ9l3+KLDm94qsSraYhW8pI1Gm19ZFPK2OCGyiUYFYsYUT17twMS+mCJk07Mk3qGIJY4FLCti46AiKgg3ceAxJiNvHk9gtAUIhwK1sn99VvWw83Id/OEvUEXwPrKpWI09sbgMRch/kmktf6i1I+rBkYmzxvu04Cvf6Rgtyw+enAJxLaewqXk2h9ME9Rln5iyHwAXyj59etM8TmNkXCLZJRTn1qDRMwWiSWB2WaRNOCWZ/x0lm5V4AdTh6w4QVRI5iha3YnZmRQ0yz4Up7YC70icAGyXlzPweUbi5iDwEsWxULTS2JUbwFuB+2F8sB+kTJZM2q79n8Ykk6WQKG3mxwfoj+0gs2ruAg22g3Mvd",
   "notes": [
-    "Оформление: стили «Современный», «Ретро», «Хакер» (падающие цифры) и «Неон», выбор углов и шрифта",
-    "Расширение системы: копия на компьютер — только если включить её самому, без лишних гигабайт",
-    "В TWRP и OrangeFox больше не пишет, что загрузчик заблокирован",
-    "Серые кнопки теперь по нажатию говорят, почему недоступны",
-    "Драйверы: поиск по первым буквам — «О» сначала показывает бренды на О",
-    "Xiaomi Mi 6 с портированной прошивкой определяется как Xiaomi",
-    "Установщик теперь называется NULLBOOT Installer"
+    "Оформление упрощено: стили «Стандартный», «Ретро» и «Хакер»",
+    "Выбранный цвет теперь работает в любом стиле, и в «Хакере» тоже — цифры падают нужным цветом",
+    "Углы: «Стандартные», «Квадратные» или «Чуть скруглённые»",
+    "Шрифт: «Стандартный» и три разных на выбор — Bahnschrift, Georgia, Cascadia"
   ]
 }
