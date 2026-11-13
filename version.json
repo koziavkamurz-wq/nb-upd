@@ -1,17 +1,17 @@
 {
-  "version": "6.0",
-  "name": "2.2.0 BETA",
-  "setup": "NULLBOOT_Installer_6.0.exe",
-  "sha256": "84b7b4891243c4751ea6b19f754a650bd03c8e78770dc27889e7648f2a7c1dd9",
-  "sig": "n5xFMPW7FV35rf+4A1tTWndBnUpGFr33KuQZk3nnpL3e3fkNRhO6D/noSnUTVz3sBu0th4kEmMNwd8jHtWrY/OSgWCFoHhnfrJmpTnyfI7yj1c0wkUrYKd3dnJCGaZmPq6kdr0DNe5e/PPR4kOKXyJH2Uhgdec9/dZGvDUG7ym+q2vzKKoUB09M/2S/XH/c07zYzOq5MoaVO+OydvO6oo7eFZL+8Y4UoNv0KLbNg9a/2aN9VqQvGfoj1EXscX5P9WX3AMdWAlDL3/PlclC5XAnviwJxa4/Wgrat1AM8MZ5o/K3lyyEtBu3jCaZaTvr9nR28VDtwP+QUsztrGn8PAYLJkKf+s065bxn0shgijeRJJN8Ej46fyEfWRthYHxmtElQ0ogKNWgu+rqbugJCAtCObHa+3gHZ6vN/tNMJFfvanLTahgOaY0lUS8csRR797y6XryyxdECSQ77jiO67q/kJU+B+pwI5vK04fJmvdlYYYAA3azjMp8hrukcO9ao1uL",
-  "delta": "NULLBOOT_Delta_c39cdf05b3c2_6.0.nbdelta",
-  "delta_base": "c39cdf05b3c27ee04c8877ab41ce48346a006b31bde13555b23fcdde044554dd",
-  "delta_sha256": "e758882b11f1eed4caf3e8afffef576c9eeee81c1f03c66f39f44f38ad82e7e9",
-  "delta_sig": "MiYJb4QcgzxIHndLm1BgeTiAp+KpFrAg4IDMAEYV0DZmIJf7KgZHa0+GP/N7DiC6Lq7sWq9WPoVyry0vxKXh0b3EBF/VVJ6Qt0ZJnT72VhHy6eG7+x1wZoEBFYQaaN5Jwk7u1lDNI/sGrWH8BJkMKKNxSdtE/0YfblgpSzyovb0S/BmDjVFmAMooSZf0MCExrDhPSL7AROmRKFRWGBj0vEFjdvrwkyCgsYrUVJDXKe90Sksscy+at21oa+5827tnkSBdiBYZrLQ2f/xfb8bdpu1pPkghp+f6chKXvyMtPt8uTWADVdbv/KVTTt1uP0T3phZ2kiEdz5rUVGj8ZspWbYlaxKtS22/ksl0DEgL/TBdIiFJY5/90X8AmS+ubPP7DK9XoGGYG/rTt5MJZJrL0FJLa9J7L875VvPr62RHhh+x0omrXRcTuWw1V+94y8ql9x9PlC81SiLkjAbjh33GMfNOWGMjSA+IQ6lyCaYFNSYYOwOtPMIH7oYWcpWTbk15M",
+  "version": "6.1",
+  "name": "2.3.0 BETA",
+  "setup": "NULLBOOT_Installer_6.1.exe",
+  "sha256": "86e6f5d70d4c288d9ee8c575b00b276d865a89fbe886ee9d32a91ec0b9bcef9e",
+  "sig": "dvngUnjP9Ihg76y0PxxsYrWcquD73wVJMBH3sISsfMnvXoxQEVdjTA9MXBOOap4vWs6VWrcZfprJC/PzrCyMn5opysVZmvPl52uo1p/Yz7sRpLKwELxlqRl4lxGOarfVti8ofERpLEbjV/2KC5yb4Ar+y9pQA5Ty8l/ecO+Noc36Tn9PvFWaWKgpCuaXeRjmD8B/oTh4ebut25tsfYUDXntE5YAPxEqfR6/0oGugAez38FRsQ85ue2IbNdl+TShqUlbqjPos7WqbiGUlZ/LSj/HOdnZ1Hyva9HkQgXMh9oYVlIkpbh49kvnH4jeTVML3KFObisv7KTZUWf6nUQB0QVdhCYjTtLACCsyko5S7lkjXN6rc20jfXP95TrvlpBbC62R8poMWMkLYyBZt5bQkyjpfMgR/AkYvAzuA233gfkAKMDwaY93v6G8GqZrRYHlfXyt5C2ExQW8JMtdWThyjT5e/EHHcv/oa+r7GFIEfZgeM6Ax3bw7gbHgqM1IMxwIu",
+  "delta": "NULLBOOT_Delta_84b7b4891243_6.1.nbdelta",
+  "delta_base": "84b7b4891243c4751ea6b19f754a650bd03c8e78770dc27889e7648f2a7c1dd9",
+  "delta_sha256": "b34c880597f2ae30754795b323f7b03569551bceaa5993dd5151068892ce7e68",
+  "delta_sig": "mh0zQlTR3qRzmOOaNXzMV+kGJlu+0JyhqCVlyAQEVqPi1jPkPA7ye8ys9KCLrDfbZhclSqoExLFtVXqypWOygrYMxm0cf2BdaVH+HF4tVgSBXeJZVkguWh3wk+qrUfrrE9XoL9YqdpDqzUHmQ9kgfh3U8hOzpSxkh12aLAgiXRy+juDz2MqACrgGtnVI9KquJHgmjJsn468nGdLLpoDifeGWSMQbluLbi8Sv/7NIxQjj0j3OVgk3t+8b0AOex3d8E07mNtUsLxyb2xe8dv1Owa78UFqW+AxoSZhS1wYxRlzJhoI1ujhCe4u/JTOglIew5s+CxgQ4vEGCxsU6eGOGljU55Cv07W7MRMct7CEfFeL5xuUkZ6hHURQs7p8OQQU9E/3OUvgcJWP4YJXEegI6NkQd4V2Nqd8qPjoi4CAYax+joYpnFWmJ5SRnUuCNtjMR02VYu19yarVg/HiX142lQvg4qW29xo/L/TiV4eJCSR95u7+aZ9BirWLlDwCRh62V",
   "notes": [
-    "Если рекавери обрывает установку через sideload (например, на 2%), NULLBOOT честно пишет, что прошивка не установилась, а не «Готово»",
-    "Для архивов больше 4 ГБ — подсказка, как поставить прошивку прямо из OrangeFox/TWRP",
-    "Распакованные GSI и порты удаляются, если установка остановилась с ошибкой — гигабайты на компьютере не остаются",
-    "Брошенные распаковки старше суток убираются в Корзину при запуске"
+    "Root определяется правильно: показывает, какой стоит — Magisk, KernelSU, KernelSU Next, SukiSU, APatch, FolkPatch — и его версию",
+    "KernelSU и APatch видны, даже если доступ для компьютера не выдан",
+    "Кнопка Recovery: если телефон после root через fastbootd открыл fastbootd, NULLBOOT сам переводит его в настоящее рекавери",
+    "TWRP: можно войти в уже установленный TWRP или OrangeFox без всякого файла"
   ]
 }
