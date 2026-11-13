@@ -1,21 +1,18 @@
 {
-  "version": "5.4",
-  "name": "1.6.0 BETA",
-  "setup": "NULLBOOT_Setup_5.4.exe",
-  "sha256": "9e04aa6c07fa5bdf0ba8381e48c591c84d68f068dec3ef7fd1aa6a80753e90da",
-  "sig": "M4rC/AFa1V46lwgLsSKNT3zzWbF0LeksIdHxkAzj6QybS6dx4ZvMATHAT42eyQOGOBLlPpOqwczgz73rQUrv9w2naZJVvAznl0z2o651cUxhs0WON1Qp4uaw5rtaIZZd7qgz3rooMJS1wDUqlwOm8HRvwbBMCAZzfKvrMB1To2WqNGTME+IwolRnJPpRXol5hXrbgP2wlalu0JxNSp6teHsHLFhoCLFAj+iukeo54WGHHZxXQ9O8Wl/Rv2KvnOBwXKQqPU1GZrUWpYfsBwMED0+UvMSjAJYTQQJtyodlX2vi5xlYSIOj3AOPtu96hmcwGJukT3kj9w7IVtHFHbeMUkdrZiXutWrQbK5yJznsbjIBIqzZFdZO9ff2O5hHL+D5GWFBcTd5gdmcgid6RrxT2HcG7ys0T+fdVNnWbbT99U+Urw8C0H+tPYv+uHkvhCmd0DxZpDxLG2gD8Kcwf0m44c0nRMV3nO8+7HRHDID3f/ZFPgo4SbTH6mgKimAXJa0M",
-  "delta": "NULLBOOT_Delta_d25711fef66c_5.4.nbdelta",
-  "delta_base": "d25711fef66c162264c9edc92660da893b1aaca74983acc364668c717415b49f",
-  "delta_sha256": "136e8030244daf3927344ea1121849999ae128dd936306ceb9a4b2af73359d9a",
-  "delta_sig": "aI65pD45sDaCGfTaA7gt7mffgJnjpiCGaDE5Uyz+aDEnoW8IuXU7L4khscqNUqnOfgoCNT5rck/lu9SR0RaCz4j/UYnIJqNPoPSGBqHVA88cNHMnHZoV3yGaZV6cVtVxJOJLUNCcgLYOIiiUjZLqU3oV98xBrd34FcsFqbO2ZyN+kj3q0heVA8qNGbfodgET2Jv6w/vjUiGaOXZh6PpFj8XPiaYQ9uz/zNiTH0oGVbyQg0juWx2vbSwOAvi9G/KW/f2IPtAHqCEm8OfMMgqdi1App37P9XRrSviscjNeH7E/ns3wwYY+Zb9pFq8aiJw+SqUS09+NOMuQQdls5glc7sq6QX6TCgnzT45JUczCdO4AbTUHxDhOPCUdxNLQUM8ZMLFTBSwKq44+J+GWlXqWQsItT5NQ0DKvDjAJ8t4M+HMeYbgI4+zycm4sQYdfq0d1WTV7khLjZWbzx8ouk+pAcxYOTekX429aXoT46dCC1uzZoKECFYCSp1i7Nhz9+kO6",
+  "version": "5.5",
+  "name": "1.7.0 BETA",
+  "setup": "NULLBOOT_Setup_5.5.exe",
+  "sha256": "7174d29697c0665abbc7afd8e958625cd346bcaf02efcc81ca63d60711e4cdb7",
+  "sig": "oMNhg5JPdwPyBw9dK9LO/1y7CdWEBmK8lNban2v1HKnMPZMq8LI4Dd5z/U5nNQ7D0Q1fTtqjfPRFCrWqnAHS73WibTFsUITyUVpkrC3RzIc273bim1+e7fxVgRw2tAdZ/CbipDg++6hKIiO/8DjDLEFtbw4Pjptu84Jaz8pd0d13phMTqkCoWeeRu58HN3rcaMo9DN1AIhODRCgCsX4AS3nRyrznYJXnfanvFXW21fOSiA2Dvg3ilo/qIBUlTdMR0sidoP621y9msBcGp+ljOtqK7fKaehA2DEcmB0hkTCiaooPPLr6pg1mX8U2YoWlL2DsMWsyfCwd/HlhRA43UgO/MDM5TFbAWlxzT/Lp5plS5IXuzkPAym813xFVutYlzku5uE26blaH67k8F5TSVtuZRsRfX27Em1AnjFn8a9gPmnvRMuBo8kgbmD/h74jUV7Jmp7pHqHcRMoR1HZ9qzaD+pwpi7Jk6Sla8aHVCrY2F/ECy3TImUh1/ZqN0dOJ0T",
+  "delta": "NULLBOOT_Delta_9e04aa6c07fa_5.5.nbdelta",
+  "delta_base": "9e04aa6c07fa5bdf0ba8381e48c591c84d68f068dec3ef7fd1aa6a80753e90da",
+  "delta_sha256": "a675e5adbcf16322e7fddf27cb1f05a229b3c797f39a3ddbbd8eda9b8ea22e1f",
+  "delta_sig": "a0hJUdt6VPpHQsf/oB9nnzJR9LWV5y2SvPoO63Cr06yciPZmhUTLKYN0ndX8mT9/rCVyR44elSE9Y+P6g/JvtHDaC/VavPisUGsjajcCUScqdPMmW8tDj5FKsBKTvEAiNCNVOqoGuJ5JT/ckqk1FyEkGS8VnahY/GqQ4Kijd3z76aQaT6xVoh+YPZalkxLW6mRWA8XNNiLquccHLkQMbZ5Qqq0+lIIFAaBRp6QLujYvGAgInA8AiaJPjyszemfzL4NZD91pQIy361szeeYHl8tdGHbQdH3QltSRBXu9pMhW9G0nUAnDwH7Q0nFR6SUmLWACdQ0affwZYhSxd+6uIzRoxyAagW3pCpoe2+l9eWqsDHAeaiBDhhj/l7tL9bg8wVWZga7wsbfxQHLdEslQFkGMDiKEPeIKLCfmTbw/LDT1dHRNMmyLakYPhbvmUkCInJ2o+fOU2/ILLuZmseoTTdpygZO/9LNo2qwo5CI6AOQNBD3yejVR2f48HDFUOHMwB",
   "notes": [
-    "iPhone: отключённый от кабеля телефон сразу пропадает из программы",
-    "iPhone: режим восстановления определяется правильно, «Загрузить систему» больше не пишет «уже в системе»",
-    "Подключение и отключение кабеля замечаются сразу, без ожидания",
-    "Репозитории: добавляемый источник сначала проверяется; если он не работает, сразу видна причина",
-    "Репозитории: источник, который не загрузился, больше не пропадает: видна ошибка и кнопки «Повторить» и «Убрать»",
-    "Репозитории: для старых iOS предлагается последняя совместимая версия твика",
-    "Репозитории: установка на iPhone дотягивает зависимости и работает на старых джейлбрейках",
-    "Репозитории: понятные сообщения, если сервер не отдаёт файл; убраны неработающие источники"
+    "Расширение системы: размер выбирается ползунком от 0 до 24 ГБ, работает и из Android, и из TWRP",
+    "Серые кнопки при нажатии объясняют, почему они сейчас недоступны",
+    "Сообщения о драйвере: кнопка «Драйверы» сразу открывает нужную вкладку",
+    "Файлы: копирование и вырезание можно отменить (Esc), «Вставить» больше не висит после отмены",
+    "Значок в трее: левый клик открывает программу, правый — маленькую панель"
   ]
 }
