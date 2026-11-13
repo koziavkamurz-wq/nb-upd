@@ -1,17 +1,16 @@
 {
-  "version": "5.8",
-  "name": "2.0.0 BETA",
-  "setup": "NULLBOOT_Installer_5.8.exe",
-  "sha256": "7271e2ed78523c4422cde42e739bf35c58f8ca66b9eb3a88298b2fae5a3a5478",
-  "sig": "J0NwKWTRvUB2TB1j9C59QgvQZH+KXeEgWB1DvVLnDgKImgwxyA/+vkE6X2uM0xUEUE/Epdi8lEQnxBWwmknHROlJUxPxe1GaE1teAUGUso1jxRkZZkSAZeOhbuheimOTm2FTQFo45Bhets08tcRhNOga6wNnaK+zD4b/46PXKRxvyVkGD6miH6+sZH8q1M8JrAve4G6bIg9s/t6R7r8MvrQ+9OQI8iKancnQ/dvlv3DB4JQ4UN+N4iCfwRH7en99nFEm85u8/yOcgWHYadBK40vs28L4+Zb0EIbL+NbZzIOxLf9A8ombSosQ7akxWA8WWE37xNET4GM9rEYU+nRNk8j6wW7nbvajMDif/xVweJ7tBh9+QN933ZQMznhLdVLYP+X5dJIp81J0JriVPi/J17bn4nR/7tZaR4/mhtoacmOoZXzYuAeJDZF3JTYOAytL0H2cTsG7BY3vXLxYzN6nfg+/FvSG16JfqHAHw/z7Udl35pd00LfOgwSBhE3k8BHn",
-  "delta": "NULLBOOT_Delta_bc9f34b84dca_5.8.nbdelta",
-  "delta_base": "bc9f34b84dcafda1aaab6d2d542b22eff2bcb579f19d5c5e083a3742d303c1eb",
-  "delta_sha256": "525acc9dd65430824d986cea4fdcb6aeeecbd2e3cd3d00ddec57306e40732851",
-  "delta_sig": "IcoDBx3IN4Ie4AYF1jgDNP0vI2si2ADzeIFL6pwH1g5L2dQRUx+6HZwoi+BaI5TS1pSD+32ilf4E3+tf7CWFUph9x5E3NJIk0XLzgHen3y+Rv9rxZIDLLOWIYaoa7+qM9wolFhEse6UGxm/NmcSvFPjUZnzsMH2ybDIa/utOl9MzEJqbY+V3autgkwolJrR6IlINp89uDzjWnE02bkdQGvkEUfBJB/2sTzzUE4UHSmk57eLLqMAAwQREbcghMnOVB8IC8nN1AT47jxBsVDNLmLoF/8o2/aAdiS4vJAQq1Bq3jOF9er4TfpaoB5OG+GzsKuOEmzCTt3UiAxQMFdtdelrIgOJOAsw4luJd09yKMMWqjaGWJHOCMJB9e04eWelBFatEtaJ4bvf2drcKXIwT54IuopWXSfpJARz2CGQdtzrRZ0jFR/ozousg8WS7lLKV14j516GQOhXFRH51TCynV+v6hEYoNAVIutxHJEsfoxZ8V8I6w67KRArqxcOPYRw1",
+  "version": "5.9",
+  "name": "2.1.0 BETA",
+  "setup": "NULLBOOT_Installer_5.9.exe",
+  "sha256": "c39cdf05b3c27ee04c8877ab41ce48346a006b31bde13555b23fcdde044554dd",
+  "sig": "KWhp0d3g6x1rrcrx6M9gSfuIGkGFmJvJEJnz2Pk5lZPlfqdfFm8sN+8nbgzVto2N6GbTsn1ulb63avk6My2PMbOu6+IS9vBpGWfpKsUKM4Vnzh/UMpPIGKaQ4ih/sWByCP42k3q5mNWoa3l0V7jLHFASAhr+umBFcnAh2N5m6JqZUL2m2Y4nW+irF5gNFU8Zj4fMkeIGFgvp4VRxPol//NDvBOxJblxHxEaXLXRWhff7DMnzmlgRGdakUa97pn9JtRIjBCZccdS9tW6O1Kibrwwzp7AgEO0Hyz7fd5FZNzffWSfTahCPzNK3ZUCvZHtrqY+VGA7kdZDf/cxGFEJqSTniZ5DgDb1+RNTnoA6mlKTs3/1ks2/PFLlpN0656D33gCG+vpp6gsIGMVX4MjJu0E0PEr2aDql5kauwTc63uYdp/4HMx0bzhOjORIJtHpnnP94obZeyJEPS5l/u8OvBbUAbGQX6ct97BnaXILXu7mW/VEWTdmuTemeuQx6noDxu",
+  "delta": "NULLBOOT_Delta_7271e2ed7852_5.9.nbdelta",
+  "delta_base": "7271e2ed78523c4422cde42e739bf35c58f8ca66b9eb3a88298b2fae5a3a5478",
+  "delta_sha256": "4e8f36d20ab929435bfdff3e15802d1c800feb071e69953bdc0b536e9649f7d7",
+  "delta_sig": "fPRSXmfSfXsurjLDBpdhkCi9ZMvaAheNXUL7CcM5EbG6MVrAE+4qg0Zl0Njpax0HU0DQhfvA0KkDoqTg0UOHvEYayx3WWy0De2wY7zYePNjma4wz+yGCLVdYM1Cuo7CizSU+YXsCDgaiTTOAl2gYOze///4IOpDgG466balW5/66EmWR4ghQw2AAN9j6J6+0sI4rg8SnxuIHothZEAZ4L/huPh77bxisMnsCBXFbLLsIOTou5IDZhkx3eNYNtZAN9LBD4ERx5970adttx3r3bhBSrOv0d9ppHEr+HeKe0dKncPiJwyEZSW0d/SCUvr9YL6vZ2b5uLM3o5tR7FILTmLOcWoVGAT0MQ+PPfb/B7N0ePhkTNWvxMfJDtGSXhxgGQI0foPizAx9XqAr3Qm79NpFYlqhiWI/l6AFl5zBhRU4+MVyKEUQd53gj4DF799xxGK85NOLEttl7Toa/ZSr07NraeYSjI0LVMQuDCpYDcX4hsHc/dl6O3u+cZ0kUDfUZ",
   "notes": [
-    "Расширение системы заработало в OrangeFox и рекавери без blkid, на старых телефонах вроде Mi 6 — без ложной ошибки AVB",
-    "Если система в EROFS, программа прямо говорит, что расширять нельзя и не нужно, и показывает размер раздела",
-    "Ползунок размера теперь плавный, с круглым бегунком в цвет приложения",
-    "Настройки стиля, углов и шрифта убраны — у приложения один стандартный вид"
+    "NULLBOOT убирает за собой: от старых обновлений остаётся только последний установщик, остальное — в Корзину",
+    "Недокачанные файлы и старые наборы логов с телефона (кроме трёх последних) тоже уходят в Корзину",
+    "Прошивки и операции ничего не распаковывают и не сохраняют на компьютер сами"
   ]
 }
