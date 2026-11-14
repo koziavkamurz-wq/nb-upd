@@ -1,15 +1,15 @@
 {
-  "version": "6.5",
-  "name": "2.7.0 BETA",
-  "setup": "NULLBOOT_Installer_6.5.exe",
-  "sha256": "c17de281215ebeb701d1bae5b7b1bb7143d74f3dc4b38be3cfff8b99f102abe4",
-  "sig": "eJIhOWTJneTKhnRhIOv58lYMc2UzXgWHm/Phlg2y1O8r9RngtuQhYt/kuXNW16snP2uesRqOASH/J3Vuhn5+danMQCNGXnE0GESn4jRKUiXvG/L9aU7DUfFXV+vIVvYp3v1KNfmgpO+IvRVbi90PxVvTp2dYhuEW3ykEp6EXE3J6gdGkLuHA3VJaLYacCpGL6AAWvFD2E+kQhsJYCAB8WEjRzRUKSVgBjvtGq2vr130hOImRR7FJcxvhOCbydTaBhw/2iN9P9sZVNM6E72HyI401Jn1z7RcenkxQ8n/L3eDz7NDx6uKqJd+paTvNW+S3MJgoP4SYP5amu2FU1qWsPiPL6B5SkEUqfSqPWiVYZMUIn2/sOse2D5I9+dKWnqkRN3uv2RSQnKGsrh3L0fyd99hRFF5euFguh0KhJlbzS1GakkCxoNEbYgOV6Lt/abR7Lpcl5HH0YIaYKcFFLN0KEapqoowgwuL9VriYsD/ehyidSvu5vuexkMlIOBMOA4BB",
-  "delta": "NULLBOOT_Delta_c394cbcafccf_6.5.nbdelta",
-  "delta_base": "c394cbcafccf1eedb1a5fe443b3021fec777af8d4749600ecba08a27eb94c434",
-  "delta_sha256": "4fa4f0a45d42692b2b004c6cca30a550b7681b909c1a916f099efcc4d897b09e",
-  "delta_sig": "E9/ZRDBz+rjz1pB7P/kPMMVf7mspm7gtwl3Sd6sS+bA6tnEIWZ//RsLkFxQLsntwUfyTwRghjPeGcBRp5dVRTwV7WRra1dzZdUMBpBGLiDsdmVgUWdDlURYwswTWFjC7xxaxbQUJrq0Pu4wRZAxoeidjLSt0JqrbvdWD2pekn7x+RuTnaFOkR7S/DxTQ1jlF50dDSjvOFLDEW97sHQsF7S4kjfLlC8WToNibD6FhLCs8j2WJ5rib/xTJ82BzCVoJZzdmRgWal0s0lA9HtbokPj5heQ4PRamQWHmBQjOk0gj8H6vjd5dxGMmYfCAVEMoQkPlQsvUvXkhKAnnVNXPdzTlz94/cQCpOR5bNSi5gvBvBW958y8r/lrhPNrHNB2O3limd27XM2q9d7gYQUmn4CCLBaqecOCroYmDnk67KFjdeA+K8weGZnDfJkwgyGWIPO1yP94Yzlqv/Pr+x2mj4lPXYTsBleeielxNSgz+lHxTopQmTQVFj+Jpc3DZtVn8y",
+  "version": "6.6",
+  "name": "2.8.0 BETA",
+  "setup": "NULLBOOT_Installer_6.6.exe",
+  "sha256": "ee6b805d92c01b020dccd17ef104d8aed0c7384e6f5490b9376a9a3a4d5cab02",
+  "sig": "Fwkh27aZfMXExwxALpy97wU295z0YbxGGKr+S17YFvGH592vkPxcAvXSKyQQSGZC864cRPqEMon/qHvX4qs3MuL/qzecpLkEb9Fb7d+uHGPQeXo1EQfKpwsg4rAgQXzrInd8scATx2upvWlkooAeyd9kR6v+u4EqW+uRVxk2SVvg67Ssjt8GD9oWKfx9Xkawxyehp7maHOUVB/6DMT7kKfqceeAn4uVpxoi0+QwRSlRIRwNrnSRNYVHrwvpm80NCjH8ikE2E7ArVa0FNofVXJaiSR27g32AuoTMW9YQTqjERJANf87u+pMKVQUh8hxW48lTCWQF7Li6IrCJTFIuzBD91Ea2Ry1P0fGpQMlzog5e1bPjqSIpwaGN25z1BmLn4XenZ5e9gWjD43wUat7VtdgoCvo5KnUYlGW4QljURnlCjAFsyfHt0CGRNiZujroum5NaviD7l9gX+2H9aHLmAfyOTFTR31XN3hdb4cw0f8cgrqNSxtYhLSwpZOG5AW02R",
+  "delta": "NULLBOOT_Delta_c17de281215e_6.6.nbdelta",
+  "delta_base": "c17de281215ebeb701d1bae5b7b1bb7143d74f3dc4b38be3cfff8b99f102abe4",
+  "delta_sha256": "c1d32595a1389533033a309f6d798bbeb26f8028eb048dbb881b8334a7ba98f1",
+  "delta_sig": "MOGisGlVcjdZfnTJDYs46HYmZHSLhaTwF/Hu6SKMITb8KOTpKbyQIA/u5uVRuME721mOfZupx7meYKvHA9AMyz3szaF166SJ1MhYE+u7YUPQZ/C47020kYCrfd7hLn/+2YQwGCaVbajIutDf1npK5pA5Vq7eJoDncsRyYqflWSZWXDrE0Z5dRVFIHUC+Q0/6cD2VFfrDtugyrpH+tTbEsPRtxG1OLN9svBaeKN9Y4looPXlqdgThKcSc3DvGpZVTfxHQHC9N7aOC8zZzKEf0k3lYqLH4GVPVcqpyHqK8gBxoUUT+3hr3IRM+RfqwMq6m8Vv22S1JG0erl9jV2qZJtdVFOrqx59r4vd9cqbIPOSj9wscucuEzIZHUphbhQmup5VhEWia1MB8wqJ26exItqIBZANbfF2WHFqndhyNs8XnxLgJQmQoSakvh6ssG1oDk+Oygs7PhhxtqG5DB5r9K/l6/Xt5YDalj3TCTZ6mOaFQ4qfPTLrJyTfnZUDJL4mZI",
   "notes": [
-    "Обновление больше не падает с «Отказано в доступе»: установщик ждёт, пока антивирус проверит новый файл, и повторяет попытку. Если обновление всё же не встало, старая версия остаётся на месте",
-    "«Заряд сейчас» на некоторых телефонах показывался в 1000 раз больше (27960 мА·ч при 1%) — исправлено"
+    "Телефоны BQ определяются как BQ — даже на прошивках, где везде написано «alps»",
+    "Короткое имя модели показывается с брендом: «BQ A1» вместо просто «A1»"
   ]
 }
