@@ -1,15 +1,17 @@
 {
-  "version": "6.3",
-  "name": "2.5.0 BETA",
-  "setup": "NULLBOOT_Installer_6.3.exe",
-  "sha256": "a94721249321f893c6fd5ea9d4372d489498edb571d9dceefb1a78fe70f34f9b",
-  "sig": "bcwtQUVr7XHbb4jjKyI+fIx7U5TbhO7Lp4GgcKgznzaWTleDqEfg7tPuFQhCOLUbcizQ9kPqjd/xRzHqW1w1xio28EKR7NfznCSC8e99e/d50KQiujwzADprxV9E6P1Sc5B6JBg5zrvL9+nNd1c4X5DJYEpscgby3v/i9mSog8WSo0fw9C5ph+HTXPrInz9oB5g3T5WjhDMqT061fg3+hq0h4Drvf1cZA61ZAAqu3IiGnt4ZRZAF0BKARxum/ZVZbusaOreqacgkFSo06NoU5hBfLJu73EExiCh9l8o4Eau9wEnFg+3n/ToxhKIiPTL8B7o/BK14QvMothYfx3Z5ErjCBjrTIhFeiRxpWV9aH9RN+dil925ok1u+ScFZ5JkLmgBuOOLBvEuruE3XenUcBuVMvh8+wno++7oYS3knRXbTInbNEf22uK+rcEPwqtI0gnsDsw5zQqI8b6b0ggh2FP0mxzMlGZL/RVxXwVI4RlsTWyOYr+ati4D8s3JcukCJ",
-  "delta": "NULLBOOT_Delta_684fa34c3424_6.3.nbdelta",
-  "delta_base": "684fa34c342418dae8a359f1839f4bfe800bd821f958c1275dcd487e59506289",
-  "delta_sha256": "64544d8dacbed9e268249f9866133577533c6d386a0a1dae8aced73e495b06ba",
-  "delta_sig": "dY45hgj4xhy9SWeWnx2TwhEMfTQrlaqyXlCu8cl26fHnm3Cad1qeADDZlBpsfRfcSF50iHHAS3elhfaKpF5SVSzFpgcl8aATaA7Jv7U36IsK4GiJsNd0/Y+vmukyNaimeCHJuNmRThtxdtJOjhkvQPI9k69UefwI2By201l+XIlVqn67dNQdG59yKAPKZIOl48yoI8uNlQL88CLY9ZTDgspd57cX/YgTXrc3CNyaJWRsSotF+KPMFahKID7rmSE1BKGbRW4g9Ib8ZJ19NfNbkARO4CzjJc0OzHxCzi7IRy4ig2Myg/ILaAl57W93/uCH12BR29JnqXlevHOE2R3YhIYB0FOmOQ9OYuWVA3vpO04NJgKhxpbluKAMjNSXJfb64cVBWGJpfNExZdFw0b3KvZ+ctJlg7wUzmIRGKn2txeowRKS+gmtosW1MHyc/xvbU6idpnizJFwn2NNcqeDxKaoCskHmJRYqFN6OfiY1X9+L8+f62ZXtVDB/L0Mf/dRlO",
+  "version": "6.4",
+  "name": "2.6.0 BETA",
+  "setup": "NULLBOOT_Installer_6.4.exe",
+  "sha256": "c394cbcafccf1eedb1a5fe443b3021fec777af8d4749600ecba08a27eb94c434",
+  "sig": "K7FMtsevZLDibx8J15eE/rkMFy54ta953BFDXjJVKObmNQp8YhSDteYeXpBvC4NZw4sNt2ne6b462wbcMnEWP8HTkNPHjuOBsfz1UN0av8o2b+GJzzUWCy2FIGsW0WUyAWLGsGf0gDktyGcBk+fPCN8syJslyyAbFOU44utdW7GWC4+fyJWsSRB/m77v/9hO6kRnCHEfjkuFhlkdAKyy+WLAJ1H9WtYJDzY1Wqur3pPVydinl8zkZuAJ++Qr/ncUbuKJV1dxPZzr/PEn9wY3HWMNx26WaEzUVKmQHxC+s7yLUZ/qQnljVI09KCb/JbKNZy7fn3AgG4sahUjhkl8Q4R3Yxm5onpkTfTpd2gc8Cxv7N1ODuRz5gMzy8TRM813AeyQiCINRd3Q2Z5W6EdYn0eDR63+ZFRJmqbosxKZLP+4nNekGs0SSj6XaFdGEvak+6Gf3ARhS0XbexJa3FSc3NkSeq1z4R8JrQoL1OSfaHb1EGCrhf6z0dfsDLTMoQVwV",
+  "delta": "NULLBOOT_Delta_a94721249321_6.4.nbdelta",
+  "delta_base": "a94721249321f893c6fd5ea9d4372d489498edb571d9dceefb1a78fe70f34f9b",
+  "delta_sha256": "02e216dcd328ad8b61e26cb803f676260ca668e24f2a48860793f681dd539df7",
+  "delta_sig": "MqU0emRVKcbLObKl/iuSslZ0hkb9vH2SslEKMYVX7tahDVPZR86HECh1uoIMNFCzNvbuWH/be6RoSulJb0pc1nsSJ7qIAlLuWpFj2LDKKW3T0EldC3GRrX04j6LH+05TtBLqnf4gmTG2k35cs35siKiDMrhAlBXQ6SQEZjE+wZ6TnFusGZgyoPUJLmw1dKhts978183FivUhH1KMQQUxjNMJTRRZnG7O3iUQnUmhC6/8VNxGS773zpiyyxhuVDAYeJo2NLLM9+53+FLbU0SoQ+C8mlSWR2QKaFI62n3Itamo/7h7lDLMcK2vuYWIolb69xvAW11R2ew4zAkYmoWinFojqc8SYTfz70rOVJmjf64T/xeDufn9DCP4N17tEoLshvYTXN/EQtcehZDM09MvciEQDq8wOYTxz0d2U6HsSI4gVwAuliuP8q1JrMPdPHeiyxm66Y/gMmq51MIc4F4xcEHfA+IHXhTgDu8Oqa2t2e9IAufMzOlBJaIPGrqnDQFO",
   "notes": [
-    "Слабые телефоны (1–3 ГБ памяти, например Samsung A01 Core, Redmi 9A) больше не подвисают при подключении: NULLBOOT не запускает на них тяжёлые системные отчёты",
-    "Страница «Телефон» на слабых телефонах не перечитывается каждую минуту — только по кнопке"
+    "Слабые телефоны (1–3 ГБ памяти, например BQ Fan, Samsung A01 Core, Redmi 9A) определяются сразу при подключении",
+    "Трансляция экрана на слабых телефонах лёгкая: 4 Мбит/с, 30 кадров, до 1024 пикселей — телефон не перегревается и отвечает на касания",
+    "Проверка root стала легче: список приложений берётся у самой системы, без запуска тяжёлой программы на телефоне",
+    "Новая версия приходит, даже если NULLBOOT открыт давно: проверка каждые 20 минут, не во время прошивки"
   ]
 }
