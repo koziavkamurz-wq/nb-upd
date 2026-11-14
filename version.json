@@ -1,17 +1,15 @@
 {
-  "version": "6.4",
-  "name": "2.6.0 BETA",
-  "setup": "NULLBOOT_Installer_6.4.exe",
-  "sha256": "c394cbcafccf1eedb1a5fe443b3021fec777af8d4749600ecba08a27eb94c434",
-  "sig": "K7FMtsevZLDibx8J15eE/rkMFy54ta953BFDXjJVKObmNQp8YhSDteYeXpBvC4NZw4sNt2ne6b462wbcMnEWP8HTkNPHjuOBsfz1UN0av8o2b+GJzzUWCy2FIGsW0WUyAWLGsGf0gDktyGcBk+fPCN8syJslyyAbFOU44utdW7GWC4+fyJWsSRB/m77v/9hO6kRnCHEfjkuFhlkdAKyy+WLAJ1H9WtYJDzY1Wqur3pPVydinl8zkZuAJ++Qr/ncUbuKJV1dxPZzr/PEn9wY3HWMNx26WaEzUVKmQHxC+s7yLUZ/qQnljVI09KCb/JbKNZy7fn3AgG4sahUjhkl8Q4R3Yxm5onpkTfTpd2gc8Cxv7N1ODuRz5gMzy8TRM813AeyQiCINRd3Q2Z5W6EdYn0eDR63+ZFRJmqbosxKZLP+4nNekGs0SSj6XaFdGEvak+6Gf3ARhS0XbexJa3FSc3NkSeq1z4R8JrQoL1OSfaHb1EGCrhf6z0dfsDLTMoQVwV",
-  "delta": "NULLBOOT_Delta_a94721249321_6.4.nbdelta",
-  "delta_base": "a94721249321f893c6fd5ea9d4372d489498edb571d9dceefb1a78fe70f34f9b",
-  "delta_sha256": "02e216dcd328ad8b61e26cb803f676260ca668e24f2a48860793f681dd539df7",
-  "delta_sig": "MqU0emRVKcbLObKl/iuSslZ0hkb9vH2SslEKMYVX7tahDVPZR86HECh1uoIMNFCzNvbuWH/be6RoSulJb0pc1nsSJ7qIAlLuWpFj2LDKKW3T0EldC3GRrX04j6LH+05TtBLqnf4gmTG2k35cs35siKiDMrhAlBXQ6SQEZjE+wZ6TnFusGZgyoPUJLmw1dKhts978183FivUhH1KMQQUxjNMJTRRZnG7O3iUQnUmhC6/8VNxGS773zpiyyxhuVDAYeJo2NLLM9+53+FLbU0SoQ+C8mlSWR2QKaFI62n3Itamo/7h7lDLMcK2vuYWIolb69xvAW11R2ew4zAkYmoWinFojqc8SYTfz70rOVJmjf64T/xeDufn9DCP4N17tEoLshvYTXN/EQtcehZDM09MvciEQDq8wOYTxz0d2U6HsSI4gVwAuliuP8q1JrMPdPHeiyxm66Y/gMmq51MIc4F4xcEHfA+IHXhTgDu8Oqa2t2e9IAufMzOlBJaIPGrqnDQFO",
+  "version": "6.5",
+  "name": "2.7.0 BETA",
+  "setup": "NULLBOOT_Installer_6.5.exe",
+  "sha256": "c17de281215ebeb701d1bae5b7b1bb7143d74f3dc4b38be3cfff8b99f102abe4",
+  "sig": "eJIhOWTJneTKhnRhIOv58lYMc2UzXgWHm/Phlg2y1O8r9RngtuQhYt/kuXNW16snP2uesRqOASH/J3Vuhn5+danMQCNGXnE0GESn4jRKUiXvG/L9aU7DUfFXV+vIVvYp3v1KNfmgpO+IvRVbi90PxVvTp2dYhuEW3ykEp6EXE3J6gdGkLuHA3VJaLYacCpGL6AAWvFD2E+kQhsJYCAB8WEjRzRUKSVgBjvtGq2vr130hOImRR7FJcxvhOCbydTaBhw/2iN9P9sZVNM6E72HyI401Jn1z7RcenkxQ8n/L3eDz7NDx6uKqJd+paTvNW+S3MJgoP4SYP5amu2FU1qWsPiPL6B5SkEUqfSqPWiVYZMUIn2/sOse2D5I9+dKWnqkRN3uv2RSQnKGsrh3L0fyd99hRFF5euFguh0KhJlbzS1GakkCxoNEbYgOV6Lt/abR7Lpcl5HH0YIaYKcFFLN0KEapqoowgwuL9VriYsD/ehyidSvu5vuexkMlIOBMOA4BB",
+  "delta": "NULLBOOT_Delta_c394cbcafccf_6.5.nbdelta",
+  "delta_base": "c394cbcafccf1eedb1a5fe443b3021fec777af8d4749600ecba08a27eb94c434",
+  "delta_sha256": "4fa4f0a45d42692b2b004c6cca30a550b7681b909c1a916f099efcc4d897b09e",
+  "delta_sig": "E9/ZRDBz+rjz1pB7P/kPMMVf7mspm7gtwl3Sd6sS+bA6tnEIWZ//RsLkFxQLsntwUfyTwRghjPeGcBRp5dVRTwV7WRra1dzZdUMBpBGLiDsdmVgUWdDlURYwswTWFjC7xxaxbQUJrq0Pu4wRZAxoeidjLSt0JqrbvdWD2pekn7x+RuTnaFOkR7S/DxTQ1jlF50dDSjvOFLDEW97sHQsF7S4kjfLlC8WToNibD6FhLCs8j2WJ5rib/xTJ82BzCVoJZzdmRgWal0s0lA9HtbokPj5heQ4PRamQWHmBQjOk0gj8H6vjd5dxGMmYfCAVEMoQkPlQsvUvXkhKAnnVNXPdzTlz94/cQCpOR5bNSi5gvBvBW958y8r/lrhPNrHNB2O3limd27XM2q9d7gYQUmn4CCLBaqecOCroYmDnk67KFjdeA+K8weGZnDfJkwgyGWIPO1yP94Yzlqv/Pr+x2mj4lPXYTsBleeielxNSgz+lHxTopQmTQVFj+Jpc3DZtVn8y",
   "notes": [
-    "Слабые телефоны (1–3 ГБ памяти, например BQ Fan, Samsung A01 Core, Redmi 9A) определяются сразу при подключении",
-    "Трансляция экрана на слабых телефонах лёгкая: 4 Мбит/с, 30 кадров, до 1024 пикселей — телефон не перегревается и отвечает на касания",
-    "Проверка root стала легче: список приложений берётся у самой системы, без запуска тяжёлой программы на телефоне",
-    "Новая версия приходит, даже если NULLBOOT открыт давно: проверка каждые 20 минут, не во время прошивки"
+    "Обновление больше не падает с «Отказано в доступе»: установщик ждёт, пока антивирус проверит новый файл, и повторяет попытку. Если обновление всё же не встало, старая версия остаётся на месте",
+    "«Заряд сейчас» на некоторых телефонах показывался в 1000 раз больше (27960 мА·ч при 1%) — исправлено"
   ]
 }
