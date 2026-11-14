@@ -1,15 +1,15 @@
 {
-  "version": "6.6",
-  "name": "2.8.0 BETA",
-  "setup": "NULLBOOT_Installer_6.6.exe",
-  "sha256": "ee6b805d92c01b020dccd17ef104d8aed0c7384e6f5490b9376a9a3a4d5cab02",
-  "sig": "Fwkh27aZfMXExwxALpy97wU295z0YbxGGKr+S17YFvGH592vkPxcAvXSKyQQSGZC864cRPqEMon/qHvX4qs3MuL/qzecpLkEb9Fb7d+uHGPQeXo1EQfKpwsg4rAgQXzrInd8scATx2upvWlkooAeyd9kR6v+u4EqW+uRVxk2SVvg67Ssjt8GD9oWKfx9Xkawxyehp7maHOUVB/6DMT7kKfqceeAn4uVpxoi0+QwRSlRIRwNrnSRNYVHrwvpm80NCjH8ikE2E7ArVa0FNofVXJaiSR27g32AuoTMW9YQTqjERJANf87u+pMKVQUh8hxW48lTCWQF7Li6IrCJTFIuzBD91Ea2Ry1P0fGpQMlzog5e1bPjqSIpwaGN25z1BmLn4XenZ5e9gWjD43wUat7VtdgoCvo5KnUYlGW4QljURnlCjAFsyfHt0CGRNiZujroum5NaviD7l9gX+2H9aHLmAfyOTFTR31XN3hdb4cw0f8cgrqNSxtYhLSwpZOG5AW02R",
-  "delta": "NULLBOOT_Delta_c17de281215e_6.6.nbdelta",
-  "delta_base": "c17de281215ebeb701d1bae5b7b1bb7143d74f3dc4b38be3cfff8b99f102abe4",
-  "delta_sha256": "c1d32595a1389533033a309f6d798bbeb26f8028eb048dbb881b8334a7ba98f1",
-  "delta_sig": "MOGisGlVcjdZfnTJDYs46HYmZHSLhaTwF/Hu6SKMITb8KOTpKbyQIA/u5uVRuME721mOfZupx7meYKvHA9AMyz3szaF166SJ1MhYE+u7YUPQZ/C47020kYCrfd7hLn/+2YQwGCaVbajIutDf1npK5pA5Vq7eJoDncsRyYqflWSZWXDrE0Z5dRVFIHUC+Q0/6cD2VFfrDtugyrpH+tTbEsPRtxG1OLN9svBaeKN9Y4looPXlqdgThKcSc3DvGpZVTfxHQHC9N7aOC8zZzKEf0k3lYqLH4GVPVcqpyHqK8gBxoUUT+3hr3IRM+RfqwMq6m8Vv22S1JG0erl9jV2qZJtdVFOrqx59r4vd9cqbIPOSj9wscucuEzIZHUphbhQmup5VhEWia1MB8wqJ26exItqIBZANbfF2WHFqndhyNs8XnxLgJQmQoSakvh6ssG1oDk+Oygs7PhhxtqG5DB5r9K/l6/Xt5YDalj3TCTZ6mOaFQ4qfPTLrJyTfnZUDJL4mZI",
+  "version": "6.7",
+  "name": "2.9.0 BETA",
+  "setup": "NULLBOOT_Installer_6.7.exe",
+  "sha256": "4b1cabf56b6f3ab2a262bef964a7156dfae2aadaafce6572521943d1216acd59",
+  "sig": "h4uZPXgq337lO05JlkxUQA0rEzAhMwY9sg/eJfcPgk3kfyAJVJ1lbxa/pBd6lIraICyTMQpymLArA/QeWaMaGwXSJ6DIEPb8h4+08T/l4NUFDHwdlts527HbbiAEnnwgDiczoJLeRqFOtCrvIdSJpafA9Protgky3qmRQXZNAGnNytm3PRPOhb2qWkXtDUcnIr5VKscVjuVJeQY7gVONRmkTCx2OnlWAir5f1OUliAQGrbSN9Xqyet1NKFcpZ6G3n/egNXU7eke25ZMYX3FUKRfynPsdkSr5t9sryMh35eccL16pd6v1Px2ieK8+XF1EP3B35W8RNExQOCq6BH3cbZNU8mhyF39ujYLo7IbqABZmsh60+mlcLsohvv69d5DtxspZeinq8o68laC3vqM/hrtFH0Q0faVktqIEmneDBePTFtKNmHmoMe9Iji5Z8guJ7Ym3F9kwAtz+sji9ItPuCnS0FeEuuQmZaUO9NpFbe+1wOtrjYfFo1JxjbH6zdktI",
+  "delta": "NULLBOOT_Delta_ee6b805d92c0_6.7.nbdelta",
+  "delta_base": "ee6b805d92c01b020dccd17ef104d8aed0c7384e6f5490b9376a9a3a4d5cab02",
+  "delta_sha256": "d0db791dcbaedfb948dc1d8f7243af8adf377721c2b6a93ab140984228f95277",
+  "delta_sig": "GPdpxxkvSd+SsmrfuC1pa0Xn5OYDHp/jv33Cn4rSTpgy6/B85IyNGGRybZQrF5C6Tqor/TTAcn/l+nOB4WMwnZRACJzhwBlnkIgkH3j5oqgu+kzgHo6h1zX07ZwoJIve0rzpMg4p2xmWSf2LigfDjEspLXOAJYKvOK+cDpxVIomxWW6T65CdpMEy+uzBgYcJDXdA5dClfFHX4OWaK7Ql9LBWIAjZ5mWkmmw0YV8Prd2b11B+buSfQkFVpazEvkW4uQHEoRm412sbqJC2KW0ctoVEHZP4vDE1hl7YXT7Wl2XacKH2p5roxCUNiBOo9AsZDUAp3PPF/EwIjbdWbO1Pdtq3q/nyqmDx6LCG9kTWHoPJ8R8xvMPc+9qn/jhYVpyi0nRWb9QAGgranjzOTjoKz09ttNkrWUz9YeIZddomE8JcxRdssO5armgWmX5Ey2UfwA4+/TFBX9DQcynBeP5kl0w5/w5LM6px7ylreY4WFuU+BctOV+lfRUpOX7x65COi",
   "notes": [
-    "Телефоны BQ определяются как BQ — даже на прошивках, где везде написано «alps»",
-    "Короткое имя модели показывается с брендом: «BQ A1» вместо просто «A1»"
+    "В настройках появилась кнопка «Проверить обновление» — даже если значок NULLBOOT спрятан в трее",
+    "Если при запуске интернет не ответил, проверка обновления повторяется сама"
   ]
 }
