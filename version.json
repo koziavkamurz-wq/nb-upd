@@ -1,17 +1,17 @@
 {
-  "version": "6.1",
-  "name": "2.3.0 BETA",
-  "setup": "NULLBOOT_Installer_6.1.exe",
-  "sha256": "86e6f5d70d4c288d9ee8c575b00b276d865a89fbe886ee9d32a91ec0b9bcef9e",
-  "sig": "dvngUnjP9Ihg76y0PxxsYrWcquD73wVJMBH3sISsfMnvXoxQEVdjTA9MXBOOap4vWs6VWrcZfprJC/PzrCyMn5opysVZmvPl52uo1p/Yz7sRpLKwELxlqRl4lxGOarfVti8ofERpLEbjV/2KC5yb4Ar+y9pQA5Ty8l/ecO+Noc36Tn9PvFWaWKgpCuaXeRjmD8B/oTh4ebut25tsfYUDXntE5YAPxEqfR6/0oGugAez38FRsQ85ue2IbNdl+TShqUlbqjPos7WqbiGUlZ/LSj/HOdnZ1Hyva9HkQgXMh9oYVlIkpbh49kvnH4jeTVML3KFObisv7KTZUWf6nUQB0QVdhCYjTtLACCsyko5S7lkjXN6rc20jfXP95TrvlpBbC62R8poMWMkLYyBZt5bQkyjpfMgR/AkYvAzuA233gfkAKMDwaY93v6G8GqZrRYHlfXyt5C2ExQW8JMtdWThyjT5e/EHHcv/oa+r7GFIEfZgeM6Ax3bw7gbHgqM1IMxwIu",
-  "delta": "NULLBOOT_Delta_84b7b4891243_6.1.nbdelta",
-  "delta_base": "84b7b4891243c4751ea6b19f754a650bd03c8e78770dc27889e7648f2a7c1dd9",
-  "delta_sha256": "b34c880597f2ae30754795b323f7b03569551bceaa5993dd5151068892ce7e68",
-  "delta_sig": "mh0zQlTR3qRzmOOaNXzMV+kGJlu+0JyhqCVlyAQEVqPi1jPkPA7ye8ys9KCLrDfbZhclSqoExLFtVXqypWOygrYMxm0cf2BdaVH+HF4tVgSBXeJZVkguWh3wk+qrUfrrE9XoL9YqdpDqzUHmQ9kgfh3U8hOzpSxkh12aLAgiXRy+juDz2MqACrgGtnVI9KquJHgmjJsn468nGdLLpoDifeGWSMQbluLbi8Sv/7NIxQjj0j3OVgk3t+8b0AOex3d8E07mNtUsLxyb2xe8dv1Owa78UFqW+AxoSZhS1wYxRlzJhoI1ujhCe4u/JTOglIew5s+CxgQ4vEGCxsU6eGOGljU55Cv07W7MRMct7CEfFeL5xuUkZ6hHURQs7p8OQQU9E/3OUvgcJWP4YJXEegI6NkQd4V2Nqd8qPjoi4CAYax+joYpnFWmJ5SRnUuCNtjMR02VYu19yarVg/HiX142lQvg4qW29xo/L/TiV4eJCSR95u7+aZ9BirWLlDwCRh62V",
+  "version": "6.2",
+  "name": "2.4.0 BETA",
+  "setup": "NULLBOOT_Installer_6.2.exe",
+  "sha256": "684fa34c342418dae8a359f1839f4bfe800bd821f958c1275dcd487e59506289",
+  "sig": "dc5FBY8wtwcyNoxUmeIY6HBKbosoY5FbVTEGHwmS0P7BVRiNTYGsBWWLhOVfM2OnRU2ynlQ9ZF0Fzp2CS3jDz682IlbXlUau5HgW4oD/c8dXsgrh41IFaSfVaHmedf/oDOlnMAzAZ8nPFiOr6osJcAipw5dQNEnQQ5x/bbEBYrjGBCL9Zlo+8WLNQLZ0lK4hviKj/ADivc/BLO1UKwiQvjcelayaLj33O+YRGaoQakGuc2nwv94xkfd1pzuQH7CzButMMcyXM7txgyfo9Ssdlw/t+MgS5BLEgdVtWIqedq6Ef0mhwSaXtxs6l3wZMYy03+8z92DmTKAFJvdcU7pSfYhii3ifSVijXSReIXK3s3P+9javb34pdZdXIg98T46VVBh32zoMrN73ILFr+H049k0JJ4wruDl3+cpgOfIaJxMVisJgUm8Ls+oXnjz6ibgAe24F1WH5UxgNmHKWh5EUEZlYh7uN1L1U7o08qzdlq7i4gWVZm2qSzC089uDUpti1",
+  "delta": "NULLBOOT_Delta_86e6f5d70d4c_6.2.nbdelta",
+  "delta_base": "86e6f5d70d4c288d9ee8c575b00b276d865a89fbe886ee9d32a91ec0b9bcef9e",
+  "delta_sha256": "70769316ca600db511789c9830fa76d80550b8f43cd630553f213c9900925107",
+  "delta_sig": "l+8I1MVQ6JCgPSEyhNDQQXJrzFxGcBnbMCzzxfkyX3Z3JpVKgEsc67IZWJpSRhL7jMknq1qWYJ+7VUUWeFqMC4xvUovojtk7pYXRDfzxi25wwlmjyik6f4acx8PgdBoPddQKaNJauHmdyXYzj6U+BGaIYu5KOPm6Iy2P/9w5WDoD8vXaIu+kZQCq+cN8dShmPk2YMUQ/7Zw9/bpYJEWjrwqc3FC3k9y5kNOIIpcVnBBhPY7+19Z7LnQN9XxZkl2EwkjJqQajdjnW+ceb6VBrZ8gUKBDDfL1ZhJ26xARrbEY+r7KM2v33cXDrxqiKZC6LvvBL4lfdc2FydsZtKXMnFHCop0+H+sO/sTCcieH2M89P0fsP0X4oG2J94FZ3ircp/mcbsyDrDcR3bbi9PKyqq0qBwfvl6rSQCHcg8DOrWW8GH4mfagwY+cdqlFr05nfxy97LcUQJV2Awt4JA9EtqF7xLjVwome6/xNImndzoLkcgPP7LZeuYteLwEQ+AXajJ",
   "notes": [
-    "Root определяется правильно: показывает, какой стоит — Magisk, KernelSU, KernelSU Next, SukiSU, APatch, FolkPatch — и его версию",
-    "KernelSU и APatch видны, даже если доступ для компьютера не выдан",
-    "Кнопка Recovery: если телефон после root через fastbootd открыл fastbootd, NULLBOOT сам переводит его в настоящее рекавери",
-    "TWRP: можно войти в уже установленный TWRP или OrangeFox без всякого файла"
+    "Процессор определяется точно: Helio G88 больше не показывается как G85, другие чипы MediaTek тоже различаются",
+    "Модель показывается по названию на коробке (Redmi 12), а не кодом вроде 23053RN02Y",
+    "Добавлены Redmi 12, 12C, 13C и Note 12",
+    "Телефон без отладки по USB (например, Samsung A02) NULLBOOT опрашивает реже — меньше нагрузки, пока он подключён"
   ]
 }
